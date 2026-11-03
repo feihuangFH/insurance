@@ -1,91 +1,91 @@
-series,code,period,date,index,annual_change,period_change
-All groups CPI,10001,2024-04,2024-04-01,96.4,,
-All groups CPI,10001,2024-05,2024-05-01,96.17,,-0.2
-All groups CPI,10001,2024-06,2024-06-01,96.52,,0.4
-All groups CPI,10001,2024-07,2024-07-01,96.77,,0.3
-All groups CPI,10001,2024-08,2024-08-01,96.49,,-0.3
-All groups CPI,10001,2024-09,2024-09-01,96.54,,0.1
-All groups CPI,10001,2024-10,2024-10-01,96.32,,-0.2
-All groups CPI,10001,2024-11,2024-11-01,96.68,,0.4
-All groups CPI,10001,2024-12,2024-12-01,97.31,,0.7
-All groups CPI,10001,2025-01,2025-01-01,97.58,,0.3
-All groups CPI,10001,2025-02,2025-02-01,97.67,,0.1
-All groups CPI,10001,2025-03,2025-03-01,97.96,,0.3
-All groups CPI,10001,2025-04,2025-04-01,98.68,2.4,0.7
-All groups CPI,10001,2025-05,2025-05-01,98.2,2.1,-0.5
-All groups CPI,10001,2025-06,2025-06-01,98.34,1.9,0.1
-All groups CPI,10001,2025-07,2025-07-01,99.63,3.0,1.3
-All groups CPI,10001,2025-08,2025-08-01,99.55,3.2,-0.1
-All groups CPI,10001,2025-09,2025-09-01,100.0,3.6,0.5
-All groups CPI,10001,2025-10,2025-10-01,99.99,3.8,-0.0
-All groups CPI,10001,2025-11,2025-11-01,100.01,3.4,0.0
-All groups CPI,10001,2025-12,2025-12-01,100.97,3.8,1.0
-All groups CPI,10001,2026-01,2026-01-01,101.33,3.8,0.4
-All groups CPI,10001,2026-02,2026-02-01,101.31,3.7,-0.0
-All groups CPI,10001,2026-03,2026-03-01,102.44,4.6,1.1
-All groups CPI,10001,2026-04,2026-04-01,102.8,4.2,0.4
-All groups CPI,10001,2026-05,2026-05-01,102.09,4.0,-0.7
-All groups CPI,10001,2026-06,2026-06-01,102.03,3.8,-0.1
-All groups CPI,10001,2026-07,2026-07-01,103.07,3.5,1.0
-All groups CPI,10001,2026-08,2026-08-01,103.5,4.0,0.4
-All groups CPI,10001,2026-09,2026-09-01,104.34,4.3,0.8
-Insurance,115528,2024-04,2024-04-01,94.04,,
-Insurance,115528,2024-05,2024-05-01,94.93,,0.9
-Insurance,115528,2024-06,2024-06-01,95.72,,0.8
-Insurance,115528,2024-07,2024-07-01,96.5,,0.8
-Insurance,115528,2024-08,2024-08-01,97.59,,1.1
-Insurance,115528,2024-09,2024-09-01,97.95,,0.4
-Insurance,115528,2024-10,2024-10-01,98.32,,0.4
-Insurance,115528,2024-11,2024-11-01,98.75,,0.4
-Insurance,115528,2024-12,2024-12-01,98.87,,0.1
-Insurance,115528,2025-01,2025-01-01,100.61,,1.8
-Insurance,115528,2025-02,2025-02-01,100.66,,0.0
-Insurance,115528,2025-03,2025-03-01,100.17,,-0.5
-Insurance,115528,2025-04,2025-04-01,99.71,6.0,-0.5
-Insurance,115528,2025-05,2025-05-01,99.27,4.6,-0.4
-Insurance,115528,2025-06,2025-06-01,99.53,4.0,0.3
-Insurance,115528,2025-07,2025-07-01,100.33,4.0,0.8
-Insurance,115528,2025-08,2025-08-01,99.71,2.2,-0.6
-Insurance,115528,2025-09,2025-09-01,100.0,2.1,0.3
-Insurance,115528,2025-10,2025-10-01,100.61,2.3,0.6
-Insurance,115528,2025-11,2025-11-01,101.17,2.5,0.6
-Insurance,115528,2025-12,2025-12-01,101.41,2.6,0.2
-Insurance,115528,2026-01,2026-01-01,102.84,2.2,1.4
-Insurance,115528,2026-02,2026-02-01,103.21,2.5,0.4
-Insurance,115528,2026-03,2026-03-01,103.91,3.7,0.7
-Insurance,115528,2026-04,2026-04-01,104.19,4.5,0.3
-Insurance,115528,2026-05,2026-05-01,104.7,5.5,0.5
-Insurance,115528,2026-06,2026-06-01,104.37,4.9,-0.3
-Insurance,115528,2026-07,2026-07-01,104.57,4.2,0.2
-Insurance,115528,2026-08,2026-08-01,105.27,5.6,0.7
-Insurance,115528,2026-09,2026-09-01,105.41,5.4,0.1
-Insurance and financial services,126670,2024-04,2024-04-01,95.66,,
-Insurance and financial services,126670,2024-05,2024-05-01,95.88,,0.2
-Insurance and financial services,126670,2024-06,2024-06-01,96.57,,0.7
-Insurance and financial services,126670,2024-07,2024-07-01,96.76,,0.2
-Insurance and financial services,126670,2024-08,2024-08-01,96.87,,0.1
-Insurance and financial services,126670,2024-09,2024-09-01,97.58,,0.7
-Insurance and financial services,126670,2024-10,2024-10-01,97.82,,0.2
-Insurance and financial services,126670,2024-11,2024-11-01,97.81,,-0.0
-Insurance and financial services,126670,2024-12,2024-12-01,98.34,,0.5
-Insurance and financial services,126670,2025-01,2025-01-01,98.76,,0.4
-Insurance and financial services,126670,2025-02,2025-02-01,98.8,,0.0
-Insurance and financial services,126670,2025-03,2025-03-01,99.21,,0.4
-Insurance and financial services,126670,2025-04,2025-04-01,99.14,3.6,-0.1
-Insurance and financial services,126670,2025-05,2025-05-01,99.03,3.3,-0.1
-Insurance and financial services,126670,2025-06,2025-06-01,99.61,3.1,0.6
-Insurance and financial services,126670,2025-07,2025-07-01,99.84,3.2,0.2
-Insurance and financial services,126670,2025-08,2025-08-01,99.7,2.9,-0.1
-Insurance and financial services,126670,2025-09,2025-09-01,100.0,2.5,0.3
-Insurance and financial services,126670,2025-10,2025-10-01,100.23,2.5,0.2
-Insurance and financial services,126670,2025-11,2025-11-01,100.29,2.5,0.1
-Insurance and financial services,126670,2025-12,2025-12-01,100.76,2.5,0.5
-Insurance and financial services,126670,2026-01,2026-01-01,101.11,2.4,0.3
-Insurance and financial services,126670,2026-02,2026-02-01,101.21,2.4,0.1
-Insurance and financial services,126670,2026-03,2026-03-01,102.02,2.8,0.8
-Insurance and financial services,126670,2026-04,2026-04-01,102.08,3.0,0.1
-Insurance and financial services,126670,2026-05,2026-05-01,102.24,3.2,0.2
-Insurance and financial services,126670,2026-06,2026-06-01,102.8,3.2,0.5
-Insurance and financial services,126670,2026-07,2026-07-01,102.98,3.1,0.2
-Insurance and financial services,126670,2026-08,2026-08-01,103.22,3.5,0.2
-Insurance and financial services,126670,2026-09,2026-09-01,103.87,3.9,0.6
+series,code,period,date,index,annual_change,period_change,source
+All groups CPI,10001,2024-04,2024-04-01,96.4,,,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-05,2024-05-01,96.17,,-0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-06,2024-06-01,96.52,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-07,2024-07-01,96.77,,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-08,2024-08-01,96.49,,-0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-09,2024-09-01,96.54,,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-10,2024-10-01,96.32,,-0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-11,2024-11-01,96.68,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2024-12,2024-12-01,97.31,,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-01,2025-01-01,97.58,,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-02,2025-02-01,97.67,,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-03,2025-03-01,97.96,,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-04,2025-04-01,98.68,2.4,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-05,2025-05-01,98.2,2.1,-0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-06,2025-06-01,98.34,1.9,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-07,2025-07-01,99.63,3.0,1.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-08,2025-08-01,99.55,3.2,-0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-09,2025-09-01,100.0,3.6,0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-10,2025-10-01,99.99,3.8,-0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-11,2025-11-01,100.01,3.4,0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2025-12,2025-12-01,100.97,3.8,1.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-01,2026-01-01,101.33,3.8,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-02,2026-02-01,101.31,3.7,-0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-03,2026-03-01,102.44,4.6,1.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-04,2026-04-01,102.8,4.2,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-05,2026-05-01,102.09,4.0,-0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-06,2026-06-01,102.03,3.8,-0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-07,2026-07-01,103.07,3.5,1.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-08,2026-08-01,103.5,4.0,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+All groups CPI,10001,2026-09,2026-09-01,104.34,4.3,0.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-04,2024-04-01,94.04,,,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-05,2024-05-01,94.93,,0.9,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-06,2024-06-01,95.72,,0.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-07,2024-07-01,96.5,,0.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-08,2024-08-01,97.59,,1.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-09,2024-09-01,97.95,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-10,2024-10-01,98.32,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-11,2024-11-01,98.75,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2024-12,2024-12-01,98.87,,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-01,2025-01-01,100.61,,1.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-02,2025-02-01,100.66,,0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-03,2025-03-01,100.17,,-0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-04,2025-04-01,99.71,6.0,-0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-05,2025-05-01,99.27,4.6,-0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-06,2025-06-01,99.53,4.0,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-07,2025-07-01,100.33,4.0,0.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-08,2025-08-01,99.71,2.2,-0.6,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-09,2025-09-01,100.0,2.1,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-10,2025-10-01,100.61,2.3,0.6,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-11,2025-11-01,101.17,2.5,0.6,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2025-12,2025-12-01,101.41,2.6,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-01,2026-01-01,102.84,2.2,1.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-02,2026-02-01,103.21,2.5,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-03,2026-03-01,103.91,3.7,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-04,2026-04-01,104.19,4.5,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-05,2026-05-01,104.7,5.5,0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-06,2026-06-01,104.37,4.9,-0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-07,2026-07-01,104.57,4.2,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-08,2026-08-01,105.27,5.6,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance,115528,2026-09,2026-09-01,105.41,5.4,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-04,2024-04-01,95.66,,,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-05,2024-05-01,95.88,,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-06,2024-06-01,96.57,,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-07,2024-07-01,96.76,,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-08,2024-08-01,96.87,,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-09,2024-09-01,97.58,,0.7,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-10,2024-10-01,97.82,,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-11,2024-11-01,97.81,,-0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2024-12,2024-12-01,98.34,,0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-01,2025-01-01,98.76,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-02,2025-02-01,98.8,,0.0,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-03,2025-03-01,99.21,,0.4,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-04,2025-04-01,99.14,3.6,-0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-05,2025-05-01,99.03,3.3,-0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-06,2025-06-01,99.61,3.1,0.6,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-07,2025-07-01,99.84,3.2,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-08,2025-08-01,99.7,2.9,-0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-09,2025-09-01,100.0,2.5,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-10,2025-10-01,100.23,2.5,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-11,2025-11-01,100.29,2.5,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2025-12,2025-12-01,100.76,2.5,0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-01,2026-01-01,101.11,2.4,0.3,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-02,2026-02-01,101.21,2.4,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-03,2026-03-01,102.02,2.8,0.8,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-04,2026-04-01,102.08,3.0,0.1,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-05,2026-05-01,102.24,3.2,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-06,2026-06-01,102.8,3.2,0.5,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-07,2026-07-01,102.98,3.1,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-08,2026-08-01,103.22,3.5,0.2,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
+Insurance and financial services,126670,2026-09,2026-09-01,103.87,3.9,0.6,"Australian Bureau of Statistics, Consumer Price Index, Australia. CC BY 4.0"
