@@ -109,7 +109,7 @@
     "href": "explainers/premiums-increasing.html#what-goes-into-a-premium",
     "title": "Why are insurance premiums increasing in Australia?",
     "section": "What goes into a premium?",
-    "text": "What goes into a premium?\nActuaries start from a technical premium:\n\nTechnical premium = expected claims + expenses + risk and capital loading\n\nExpected claims depend on how often claims happen and how much each one costs. Expenses cover administration, distribution and regulation. The risk and capital loading pays for reinsurance and for the capital an insurer must hold.\nThe price a customer pays also reflects competition, the insurer’s pricing strategy, and taxes and levies such as stamp duty and GST."
+    "text": "What goes into a premium?\nActuaries start from a technical premium:\n\nTechnical premium = expected claims + expenses + risk and capital loading\n\nExpected claims depend on how often claims happen and how much each one costs. Expenses are operating costs (administration, marketing and claims handling) and commissions paid to intermediaries. The risk and capital loading covers reinsurance and a margin for profit or return on capital (ACCC 2020, 60–61).\nInsurers then adjust the technical premium for competitive or market positioning, or to manage their exposure. These adjustments are not directly related to the risk of the property. Discounts, surcharges for options such as monthly payment, taxes, duties and levies are applied last, giving the price the customer pays (ACCC 2020, 60–61)."
   },
   {
     "objectID": "explainers/premiums-increasing.html#what-regulators-and-industry-bodies-report",
@@ -228,14 +228,14 @@
     "href": "explainers/natural-disasters.html",
     "title": "How do natural disasters affect insurance premiums?",
     "section": "",
-    "text": "Short answer\nHome premiums are set to cover the claims an insurer expects in the coming year, estimated from the hazard at each location, what is at risk there and how vulnerable it is. In 2024–25 the average home and contents premium was almost $5,000 in north Western Australia, compared with $2,310 outside northern Australia."
+    "text": "Short answer\nInsurers estimate the expected cost of claims from each natural peril separately, such as flood, cyclone, bushfire and storm, and build it into each property’s premium according to its relative risk. In 2024–25 the average home and contents premium was almost $5,000 in north Western Australia, compared with $2,310 outside northern Australia."
   },
   {
     "objectID": "explainers/natural-disasters.html#how-insurers-price-natural-hazard-risk",
     "href": "explainers/natural-disasters.html#how-insurers-price-natural-hazard-risk",
     "title": "How do natural disasters affect insurance premiums?",
     "section": "How insurers price natural hazard risk",
-    "text": "How insurers price natural hazard risk\nAn insurer sets a home premium by estimating the claims it expects from that property over the coming year. For natural hazards, that estimate comes from catastrophe models, which combine:\n\nHazard. How likely and how severe floods, bushfires, cyclones and storms are at that location.\nExposure. What is at risk: the building, its contents, and their value.\nVulnerability. How much damage a given event would cause, which depends on construction, elevation and other features.\n\nInsurers also buy reinsurance to cover very large losses, and hold capital to pay claims after a very bad year. Insurers pass higher reinsurance costs on to consumers, and the cost of capital is part of the cost of insurance (Huang 2024)."
+    "text": "How insurers price natural hazard risk\nInsurers split expected claims into working claims, such as theft, glass and water damage, and natural peril claims. They generally model each peril separately, estimating how often claims occur and how much each one costs. The models for natural perils are generally developed by industry specialists or reinsurers and supplemented with insurers’ own claims data. Some insurers estimate the average annual loss for a peril across their portfolio and allocate it to policies by relative risk. Others build up the expected cost policy by policy (ACCC 2020, 62).\nThese models combine:\n\nHazard. How likely and how severe floods, bushfires, cyclones and storms are at that location.\nExposure. What is at risk: the building, its contents, and their value.\nVulnerability. How much damage a given event would cause, which depends on construction, elevation and other features.\n\nInsurers also buy reinsurance to cover very large losses, and hold capital to pay claims after a very bad year. Insurers pass higher reinsurance costs on to consumers, and the cost of capital is part of the cost of insurance (Huang 2024)."
   },
   {
     "objectID": "explainers/natural-disasters.html#premiums-in-high-risk-areas",
