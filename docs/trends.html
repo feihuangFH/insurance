@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-AU" xml:lang="en-AU"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="How insurance prices in Australia are changing, compared with overall consumer prices and other household costs. ABS data, updated monthly.">
+
+<title>Insurance Trends · Insurance Explained – Insurance Explained</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-7ecade24d6a776a3626e7616d1e90276.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F11HECZVN7"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
+</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed home fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/mark.svg" alt="Insurance Explained" class="navbar-logo light-content">
+    <img src="./images/mark.svg" alt="Insurance Explained" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Insurance Explained</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./trends.html" aria-current="page"> 
+<span class="menu-text">Trends</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./why-premiums-change.html"> 
+<span class="menu-text">Why premiums change</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./explainers.html"> 
+<span class="menu-text">Explainers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./key-figures.html"> 
+<span class="menu-text">Key figures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./commentary.html"> 
+<span class="menu-text">Commentary</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+
+
+
+<div class="page-head">
+<div class="wrap">
+<p><span class="eyebrow">Insurance trends</span></p>
+<section id="how-insurance-prices-are-changing" class="level1">
+<h1>How insurance prices are changing</h1>
+<div class="lede">
+<p>Official price data for insurance in Australia, compared with overall inflation and other household costs. All figures come from the Australian Bureau of Statistics.</p>
+</div>
+</section>
+</div>
+</div>
+<!-- Module A ---------------------------------------------------------------->
+<div id="inflation" class="band">
+<div class="wrap">
+<div class="tiles">
+<div class="tile">
+<p><span class="name">Insurance prices, annual change</span></p>
+<p><span class="value accent">+5.4%</span></p>
+<p><span class="context">Year to September 2026. All-groups CPI: +4.3%</span></p>
+<p><span class="meta">ABS-published monthly figure.</span></p>
+</div>
+<div class="tile">
+<p><span class="name">Insurance prices, monthly change</span></p>
+<p><span class="value">+0.1%</span></p>
+<p><span class="context">September 2026 on the previous month</span></p>
+<p><span class="meta">Calculated from ABS monthly index numbers.</span></p>
+</div>
+<div class="tile">
+<p><span class="name">Over five years</span></p>
+<p><span class="value accent">+47.0%</span></p>
+<p><span class="context">All-groups CPI: +24.6%</span></p>
+<p><span class="meta">September quarter 2021 to September quarter 2026. Calculated from quarterly index numbers.</span></p>
+</div>
+<div class="tile">
+<p><span class="name">Over ten years</span></p>
+<p><span class="value accent">+69.9%</span></p>
+<p><span class="context">All-groups CPI: +36.4%</span></p>
+<p><span class="meta">September quarter 2016 to September quarter 2026. Calculated from quarterly index numbers.</span></p>
+</div>
+</div>
+<div class="tiles-source">
+<p>Source: <a href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia">ABS, Consumer Price Index, Australia (Data API, dataflow CPI)</a>. Original series, Australia. Retrieved 3 November 2026.</p>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="76" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 75;"><span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {colours<span class="op">,</span> labels<span class="op">,</span> fmt<span class="op">,</span> periodName<span class="op">,</span> prepare<span class="op">,</span> trendChart<span class="op">,</span> changeOver<span class="op">,</span> categoryChart} <span class="im">from</span> <span class="st">"./js/charts.js"</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>quarterly <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"data/abs_cpi.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({<span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span>})</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>monthly <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"data/abs_cpi_monthly.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({<span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<!-- Chart A1 -->
+<div class="chart-panel mt">
+<section id="insurance-prices-and-overall-inflation" class="level2 chart-head">
+<h2 data-anchor-id="insurance-prices-and-overall-inflation">Insurance prices and overall inflation</h2>
+<p>Insurance compared with the all-groups CPI. The wider insurance and financial services group, which also includes deposit and loan fees and other financial services, can be added for comparison.</p>
+</section>
+<div class="chart-controls">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="94" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 93;"><span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>viewof freq <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(<span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"Quarterly, since 1989"</span><span class="op">,</span> <span class="st">"quarterly"</span>]<span class="op">,</span> [<span class="st">"Monthly, since 2024"</span><span class="op">,</span> <span class="st">"monthly"</span>]])<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="st">"quarterly"</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="99" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 98;"><span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a>viewof measure <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(<span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"Annual change"</span><span class="op">,</span> <span class="st">"annual"</span>]<span class="op">,</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a>  [freq <span class="op">===</span> <span class="st">"monthly"</span> <span class="op">?</span> <span class="st">"Monthly change"</span> <span class="op">:</span> <span class="st">"Quarterly change"</span><span class="op">,</span> <span class="st">"period"</span>]<span class="op">,</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"Cumulative change"</span><span class="op">,</span> <span class="st">"cumulative"</span>]</span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>])<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="st">"annual"</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="109" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 108;"><span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>rangeOptions <span class="op">=</span> freq <span class="op">===</span> <span class="st">"quarterly"</span></span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>  <span class="op">?</span> <span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"5 years"</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> [<span class="st">"10 years"</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> [<span class="st">"20 years"</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> [<span class="st">"Since 1989"</span><span class="op">,</span> <span class="dv">99</span>]])</span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>  <span class="op">:</span> <span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"All months"</span><span class="op">,</span> <span class="dv">99</span>]])</span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>viewof years <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(rangeOptions<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> freq <span class="op">===</span> <span class="st">"quarterly"</span> <span class="op">?</span> <span class="dv">10</span> <span class="op">:</span> <span class="dv">99</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-4-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-4-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="chart-controls series-pick">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb5" data-startfrom="118" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 117;"><span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a>viewof picked <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">checkbox</span>(</span>
+<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a>  <span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"Insurance"</span><span class="op">,</span> <span class="st">"Insurance"</span>]<span class="op">,</span> [<span class="st">"All-groups CPI"</span><span class="op">,</span> <span class="st">"All groups CPI"</span>]<span class="op">,</span> [<span class="st">"Insurance and financial services group"</span><span class="op">,</span> <span class="st">"Insurance and financial services"</span>]])<span class="op">,</span></span>
+<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> [<span class="st">"Insurance"</span><span class="op">,</span> <span class="st">"All groups CPI"</span>]}</span>
+<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb6" data-startfrom="128" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 127;"><span id="cb6-128"><a href="#cb6-128" aria-hidden="true" tabindex="-1"></a>trendRows <span class="op">=</span> freq <span class="op">===</span> <span class="st">"quarterly"</span> <span class="op">?</span> quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">role</span> <span class="op">===</span> <span class="st">"main"</span>) <span class="op">:</span> monthly</span>
+<span id="cb6-129"><a href="#cb6-129" aria-hidden="true" tabindex="-1"></a>trendLatest <span class="op">=</span> d3<span class="op">.</span><span class="fu">max</span>(trendRows<span class="op">,</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">date</span>)</span>
+<span id="cb6-130"><a href="#cb6-130" aria-hidden="true" tabindex="-1"></a>trendStart <span class="op">=</span> {</span>
+<span id="cb6-131"><a href="#cb6-131" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> s <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>(trendLatest)<span class="op">;</span></span>
+<span id="cb6-132"><a href="#cb6-132" aria-hidden="true" tabindex="-1"></a>  s<span class="op">.</span><span class="fu">setUTCFullYear</span>(s<span class="op">.</span><span class="fu">getUTCFullYear</span>() <span class="op">-</span> years)<span class="op">;</span></span>
+<span id="cb6-133"><a href="#cb6-133" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> s<span class="op">;</span></span>
+<span id="cb6-134"><a href="#cb6-134" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-135"><a href="#cb6-135" aria-hidden="true" tabindex="-1"></a>seriesShown <span class="op">=</span> picked<span class="op">.</span><span class="at">length</span> <span class="op">?</span> picked <span class="op">:</span> [<span class="st">"Insurance"</span>]</span>
+<span id="cb6-136"><a href="#cb6-136" aria-hidden="true" tabindex="-1"></a>trendData <span class="op">=</span> <span class="fu">prepare</span>(trendRows<span class="op">,</span> {measure<span class="op">,</span> <span class="dt">start</span><span class="op">:</span> trendStart<span class="op">,</span> <span class="dt">series</span><span class="op">:</span> seriesShown})</span>
+<span id="cb6-137"><a href="#cb6-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-138"><a href="#cb6-138" aria-hidden="true" tabindex="-1"></a><span class="fu">trendChart</span>(Plot<span class="op">,</span> d3<span class="op">,</span> trendData<span class="op">,</span> {measure<span class="op">,</span> freq<span class="op">,</span> width<span class="op">,</span> <span class="dt">series</span><span class="op">:</span> seriesShown})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-6-6" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="chart-footnote">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb7" data-startfrom="143" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 142;"><span id="cb7-143"><a href="#cb7-143" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`</span><span class="sc">${</span>freq <span class="op">===</span> <span class="st">"monthly"</span></span>
+<span id="cb7-144"><a href="#cb7-144" aria-hidden="true" tabindex="-1"></a>  <span class="op">?</span> <span class="st">"The ABS began publishing a complete monthly CPI in November 2025. Monthly index numbers in the ABS Data API start in April 2024, and ABS-published annual changes start in April 2025."</span></span>
+<span id="cb7-145"><a href="#cb7-145" aria-hidden="true" tabindex="-1"></a>  <span class="op">:</span> <span class="st">"Quarterly figures are averages of the three monthly index numbers. Annual and quarterly changes are calculated from index numbers and may differ from ABS-published figures by 0.1 percentage points because of rounding."</span><span class="sc">}</span><span class="vs">`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-7" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="chart-notes">
+<section id="what-this-shows" class="level3">
+<h3 data-anchor-id="what-this-shows">What this shows</h3>
+<p>Price change for comparable insurance policies. The ABS prices home and motor vehicle insurance each month using web-scraped price quotes for a range of customer profiles, so the index tracks price, not total spending. The category covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance.</p>
+</section>
+<section id="what-it-does-not-show" class="level3">
+<h3 data-anchor-id="what-it-does-not-show">What it does not show</h3>
+<p>What households pay in total, which also moves with sums insured, coverage choices and risk. It does not show separate figures for home and car insurance, because the ABS does not publish them below this level. It also does not show why prices changed.</p>
+</section>
+</div>
+</div>
+<!-- Chart A2 -->
+<div class="chart-panel mt">
+<section id="insurance-compared-with-other-household-costs" class="level2 chart-head">
+<h2 data-anchor-id="insurance-compared-with-other-household-costs">Insurance compared with other household costs</h2>
+<p>Price change for selected household spending categories over the same period.</p>
+</section>
+<div class="chart-controls">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb8" data-startfrom="176" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 175;"><span id="cb8-176"><a href="#cb8-176" aria-hidden="true" tabindex="-1"></a>viewof compareYears <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(<span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"5 years"</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> [<span class="st">"10 years"</span><span class="op">,</span> <span class="dv">10</span>]])<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-8" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb9" data-startfrom="183" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 182;"><span id="cb9-183"><a href="#cb9-183" aria-hidden="true" tabindex="-1"></a>categoryData <span class="op">=</span> <span class="fu">changeOver</span>(quarterly<span class="op">,</span> compareYears)</span>
+<span id="cb9-184"><a href="#cb9-184" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`Price change from the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">from</span>)<span class="sc">}</span><span class="vs"> to the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">to</span>)<span class="sc">}</span><span class="vs">. The dashed line marks the all-groups CPI.`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb10" data-startfrom="188" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 187;"><span id="cb10-188"><a href="#cb10-188" aria-hidden="true" tabindex="-1"></a><span class="fu">categoryChart</span>(Plot<span class="op">,</span> categoryData<span class="op">,</span> {width})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-10" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="chart-notes">
+<section id="what-this-shows-1" class="level3">
+<h3 data-anchor-id="what-this-shows-1">What this shows</h3>
+<p>How insurance price growth compares with other living costs. Vehicle repair and new dwelling prices are included because repair and rebuilding costs feed into insurance claims.</p>
+</section>
+<section id="what-it-does-not-show-1" class="level3">
+<h3 data-anchor-id="what-it-does-not-show-1">What it does not show</h3>
+<p>How much those costs contributed to insurance price rises. Some categories, such as electricity and child care, are also affected by government rebates and subsidies.</p>
+</section>
+</div>
+</div>
+<!-- Table -->
+<div class="chart-panel mt">
+<section id="latest-figures" class="level2 chart-head">
+<h2 data-anchor-id="latest-figures">Latest figures</h2>
+<p>The figures behind the charts, for quoting and checking.</p>
+</section>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb11" data-startfrom="217" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 216;"><span id="cb11-217"><a href="#cb11-217" aria-hidden="true" tabindex="-1"></a>latestTable <span class="op">=</span> {</span>
+<span id="cb11-218"><a href="#cb11-218" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> five <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">5</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
+<span id="cb11-219"><a href="#cb11-219" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ten <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">10</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
+<span id="cb11-220"><a href="#cb11-220" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> order <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(labels)<span class="op">;</span></span>
+<span id="cb11-221"><a href="#cb11-221" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> latest <span class="op">=</span> order<span class="op">.</span><span class="fu">map</span>(s <span class="kw">=&gt;</span> {</span>
+<span id="cb11-222"><a href="#cb11-222" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> rows <span class="op">=</span> quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> s)<span class="op">;</span></span>
+<span id="cb11-223"><a href="#cb11-223" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> rows<span class="op">.</span><span class="at">length</span> <span class="op">?</span> rows<span class="op">.</span><span class="fu">reduce</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> (a<span class="op">.</span><span class="at">date</span> <span class="op">&gt;</span> b<span class="op">.</span><span class="at">date</span> <span class="op">?</span> a <span class="op">:</span> b)) <span class="op">:</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb11-224"><a href="#cb11-224" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">filter</span>(<span class="bu">Boolean</span>)<span class="op">;</span></span>
+<span id="cb11-225"><a href="#cb11-225" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="table-scroll"&gt;&lt;table class="data-table"&gt;</span></span>
+<span id="cb11-226"><a href="#cb11-226" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;thead&gt;&lt;tr&gt;&lt;th scope="col"&gt;Series&lt;/th&gt;&lt;th scope="col"&gt;Latest quarter&lt;/th&gt;&lt;th scope="col"&gt;Annual change (quarter)&lt;/th&gt;&lt;th scope="col"&gt;5-year change&lt;/th&gt;&lt;th scope="col"&gt;10-year change&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</span></span>
+<span id="cb11-227"><a href="#cb11-227" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;tbody&gt;</span><span class="sc">${</span>latest<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;tr class=</span><span class="sc">${</span>d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> <span class="st">"Insurance"</span> <span class="op">?</span> <span class="st">"hl"</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span><span class="vs">&gt;</span></span>
+<span id="cb11-228"><a href="#cb11-228" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;th scope="row"&gt;</span><span class="sc">${</span>labels[d<span class="op">.</span><span class="at">series</span>]<span class="sc">}</span><span class="vs">&lt;/th&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">periodName</span>(d<span class="op">.</span><span class="at">period</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb11-229"><a href="#cb11-229" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(d<span class="op">.</span><span class="at">annual_change</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(five<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(ten<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;/tr&gt;`</span>)<span class="sc">}</span></span>
+<span id="cb11-230"><a href="#cb11-230" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;`</span><span class="op">;</span></span>
+<span id="cb11-231"><a href="#cb11-231" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-11" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="chart-source">
+<p>Annual change compares the latest quarter with the same quarter a year earlier. It can differ from the monthly headline figure (5.4% for insurance in the year to September 2026), which compares single months.</p>
+<p>Source: ABS, Consumer Price Index, Australia (Data API, dataflow CPI). Original series, Australia. Changes calculated from quarterly index numbers. Retrieved 3 November 2026. Download: <a href="data/abs_cpi.csv">quarterly data (CSV)</a> · <a href="data/abs_cpi_monthly.csv">monthly data (CSV)</a>. ABS data are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+</div>
+</div>
+<!-- Methods -->
+<section id="about-these-figures" class="level2 methods mt">
+<h2 data-anchor-id="about-these-figures">About these figures</h2>
+<div class="methods-grid">
+<section id="what-the-insurance-index-measures" class="level3">
+<h3 data-anchor-id="what-the-insurance-index-measures">What the insurance index measures</h3>
+<p>The CPI insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is not included. The ABS classifies it in the Health group, under Medical and hospital services.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</section>
+<section id="insurance-or-insurance-and-financial-services" class="level3">
+<h3 data-anchor-id="insurance-or-insurance-and-financial-services">Insurance, or insurance and financial services?</h3>
+<p>“Insurance” is an expenditure class, the lowest level at which the ABS publishes price indexes. “Insurance and financial services” is a broader CPI group that adds deposit and loan fees and other financial services. The two measure different things.</p>
+</section>
+<section id="the-2000-spike" class="level3">
+<h3 data-anchor-id="the-2000-spike">The 2000 spike</h3>
+<p>The insurance index rose by about 30% in the year to June 2000. The ABS attributed this mainly to the GST. Under the method used then, the CPI valued insurance as the net service households receive, roughly premiums less claims. Taxes on premiums are a larger share of that smaller base, so the GST moved the index by more than it moved the premiums households paid.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</section>
+<section id="monthly-and-quarterly-figures" class="level3">
+<h3 data-anchor-id="monthly-and-quarterly-figures">Monthly and quarterly figures</h3>
+<p>Since November 2025 the ABS has published a complete monthly CPI. The quarterly CPI is the average of the three months in each quarter. This page uses ABS-published monthly annual changes for the headline figure and quarterly index numbers for long-run history.</p>
+</section>
+</div>
+</section>
+</div>
+</div>
+
+
+
+
+
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7Y29sb3VycywgbGFiZWxzLCBmbXQsIHBlcmlvZE5hbWUsIHByZXBhcmUsIHRyZW5kQ2hhcnQsIGNoYW5nZU92ZXIsIGNhdGVnb3J5Q2hhcnR9IGZyb20gXCIuL2pzL2NoYXJ0cy5qc1wiXG5cbnF1YXJ0ZXJseSA9IEZpbGVBdHRhY2htZW50KFwiZGF0YS9hYnNfY3BpLmNzdlwiKS5jc3Yoe3R5cGVkOiB0cnVlfSlcbm1vbnRobHkgPSBGaWxlQXR0YWNobWVudChcImRhdGEvYWJzX2NwaV9tb250aGx5LmNzdlwiKS5jc3Yoe3R5cGVkOiB0cnVlfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBmcmVxID0gSW5wdXRzLnJhZGlvKG5ldyBNYXAoW1tcIlF1YXJ0ZXJseSwgc2luY2UgMTk4OVwiLCBcInF1YXJ0ZXJseVwiXSwgW1wiTW9udGhseSwgc2luY2UgMjAyNFwiLCBcIm1vbnRobHlcIl1dKSwge3ZhbHVlOiBcInF1YXJ0ZXJseVwifSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBtZWFzdXJlID0gSW5wdXRzLnJhZGlvKG5ldyBNYXAoW1xuICBbXCJBbm51YWwgY2hhbmdlXCIsIFwiYW5udWFsXCJdLFxuICBbZnJlcSA9PT0gXCJtb250aGx5XCIgPyBcIk1vbnRobHkgY2hhbmdlXCIgOiBcIlF1YXJ0ZXJseSBjaGFuZ2VcIiwgXCJwZXJpb2RcIl0sXG4gIFtcIkN1bXVsYXRpdmUgY2hhbmdlXCIsIFwiY3VtdWxhdGl2ZVwiXVxuXSksIHt2YWx1ZTogXCJhbm51YWxcIn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJyYW5nZU9wdGlvbnMgPSBmcmVxID09PSBcInF1YXJ0ZXJseVwiXG4gID8gbmV3IE1hcChbW1wiNSB5ZWFyc1wiLCA1XSwgW1wiMTAgeWVhcnNcIiwgMTBdLCBbXCIyMCB5ZWFyc1wiLCAyMF0sIFtcIlNpbmNlIDE5ODlcIiwgOTldXSlcbiAgOiBuZXcgTWFwKFtbXCJBbGwgbW9udGhzXCIsIDk5XV0pXG52aWV3b2YgeWVhcnMgPSBJbnB1dHMucmFkaW8ocmFuZ2VPcHRpb25zLCB7dmFsdWU6IGZyZXEgPT09IFwicXVhcnRlcmx5XCIgPyAxMCA6IDk5fSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBwaWNrZWQgPSBJbnB1dHMuY2hlY2tib3goXG4gIG5ldyBNYXAoW1tcIkluc3VyYW5jZVwiLCBcIkluc3VyYW5jZVwiXSwgW1wiQWxsLWdyb3VwcyBDUElcIiwgXCJBbGwgZ3JvdXBzIENQSVwiXSwgW1wiSW5zdXJhbmNlIGFuZCBmaW5hbmNpYWwgc2VydmljZXMgZ3JvdXBcIiwgXCJJbnN1cmFuY2UgYW5kIGZpbmFuY2lhbCBzZXJ2aWNlc1wiXV0pLFxuICB7dmFsdWU6IFtcIkluc3VyYW5jZVwiLCBcIkFsbCBncm91cHMgQ1BJXCJdfVxuKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC02IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidHJlbmRSb3dzID0gZnJlcSA9PT0gXCJxdWFydGVybHlcIiA/IHF1YXJ0ZXJseS5maWx0ZXIoZCA9PiBkLnJvbGUgPT09IFwibWFpblwiKSA6IG1vbnRobHlcbnRyZW5kTGF0ZXN0ID0gZDMubWF4KHRyZW5kUm93cywgZCA9PiBkLmRhdGUpXG50cmVuZFN0YXJ0ID0ge1xuICBjb25zdCBzID0gbmV3IERhdGUodHJlbmRMYXRlc3QpO1xuICBzLnNldFVUQ0Z1bGxZZWFyKHMuZ2V0VVRDRnVsbFllYXIoKSAtIHllYXJzKTtcbiAgcmV0dXJuIHM7XG59XG5zZXJpZXNTaG93biA9IHBpY2tlZC5sZW5ndGggPyBwaWNrZWQgOiBbXCJJbnN1cmFuY2VcIl1cbnRyZW5kRGF0YSA9IHByZXBhcmUodHJlbmRSb3dzLCB7bWVhc3VyZSwgc3RhcnQ6IHRyZW5kU3RhcnQsIHNlcmllczogc2VyaWVzU2hvd259KVxuXG50cmVuZENoYXJ0KFBsb3QsIGQzLCB0cmVuZERhdGEsIHttZWFzdXJlLCBmcmVxLCB3aWR0aCwgc2VyaWVzOiBzZXJpZXNTaG93bn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJtZGAke2ZyZXEgPT09IFwibW9udGhseVwiXG4gID8gXCJUaGUgQUJTIGJlZ2FuIHB1Ymxpc2hpbmcgYSBjb21wbGV0ZSBtb250aGx5IENQSSBpbiBOb3ZlbWJlciAyMDI1LiBNb250aGx5IGluZGV4IG51bWJlcnMgaW4gdGhlIEFCUyBEYXRhIEFQSSBzdGFydCBpbiBBcHJpbCAyMDI0LCBhbmQgQUJTLXB1Ymxpc2hlZCBhbm51YWwgY2hhbmdlcyBzdGFydCBpbiBBcHJpbCAyMDI1LlwiXG4gIDogXCJRdWFydGVybHkgZmlndXJlcyBhcmUgYXZlcmFnZXMgb2YgdGhlIHRocmVlIG1vbnRobHkgaW5kZXggbnVtYmVycy4gQW5udWFsIGFuZCBxdWFydGVybHkgY2hhbmdlcyBhcmUgY2FsY3VsYXRlZCBmcm9tIGluZGV4IG51bWJlcnMgYW5kIG1heSBkaWZmZXIgZnJvbSBBQlMtcHVibGlzaGVkIGZpZ3VyZXMgYnkgMC4xIHBlcmNlbnRhZ2UgcG9pbnRzIGJlY2F1c2Ugb2Ygcm91bmRpbmcuXCJ9YFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC04IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGNvbXBhcmVZZWFycyA9IElucHV0cy5yYWRpbyhuZXcgTWFwKFtbXCI1IHllYXJzXCIsIDVdLCBbXCIxMCB5ZWFyc1wiLCAxMF1dKSwge3ZhbHVlOiA1fSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImNhdGVnb3J5RGF0YSA9IGNoYW5nZU92ZXIocXVhcnRlcmx5LCBjb21wYXJlWWVhcnMpXG5tZGBQcmljZSBjaGFuZ2UgZnJvbSB0aGUgJHtwZXJpb2ROYW1lKGNhdGVnb3J5RGF0YVswXS5mcm9tKX0gdG8gdGhlICR7cGVyaW9kTmFtZShjYXRlZ29yeURhdGFbMF0udG8pfS4gVGhlIGRhc2hlZCBsaW5lIG1hcmtzIHRoZSBhbGwtZ3JvdXBzIENQSS5gXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTEwIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiY2F0ZWdvcnlDaGFydChQbG90LCBjYXRlZ29yeURhdGEsIHt3aWR0aH0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTExIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoibGF0ZXN0VGFibGUgPSB7XG4gIGNvbnN0IGZpdmUgPSBuZXcgTWFwKGNoYW5nZU92ZXIocXVhcnRlcmx5LCA1KS5tYXAoZCA9PiBbZC5zZXJpZXMsIGQudl0pKTtcbiAgY29uc3QgdGVuID0gbmV3IE1hcChjaGFuZ2VPdmVyKHF1YXJ0ZXJseSwgMTApLm1hcChkID0+IFtkLnNlcmllcywgZC52XSkpO1xuICBjb25zdCBvcmRlciA9IE9iamVjdC5rZXlzKGxhYmVscyk7XG4gIGNvbnN0IGxhdGVzdCA9IG9yZGVyLm1hcChzID0+IHtcbiAgICBjb25zdCByb3dzID0gcXVhcnRlcmx5LmZpbHRlcihkID0+IGQuc2VyaWVzID09PSBzKTtcbiAgICByZXR1cm4gcm93cy5sZW5ndGggPyByb3dzLnJlZHVjZSgoYSwgYikgPT4gKGEuZGF0ZSA+IGIuZGF0ZSA/IGEgOiBiKSkgOiBudWxsO1xuICB9KS5maWx0ZXIoQm9vbGVhbik7XG4gIHJldHVybiBodG1sYDxkaXYgY2xhc3M9XCJ0YWJsZS1zY3JvbGxcIj48dGFibGUgY2xhc3M9XCJkYXRhLXRhYmxlXCI+XG4gICAgPHRoZWFkPjx0cj48dGggc2NvcGU9XCJjb2xcIj5TZXJpZXM8L3RoPjx0aCBzY29wZT1cImNvbFwiPkxhdGVzdCBxdWFydGVyPC90aD48dGggc2NvcGU9XCJjb2xcIj5Bbm51YWwgY2hhbmdlIChxdWFydGVyKTwvdGg+PHRoIHNjb3BlPVwiY29sXCI+NS15ZWFyIGNoYW5nZTwvdGg+PHRoIHNjb3BlPVwiY29sXCI+MTAteWVhciBjaGFuZ2U8L3RoPjwvdHI+PC90aGVhZD5cbiAgICA8dGJvZHk+JHtsYXRlc3QubWFwKGQgPT4gaHRtbGA8dHIgY2xhc3M9JHtkLnNlcmllcyA9PT0gXCJJbnN1cmFuY2VcIiA/IFwiaGxcIiA6IFwiXCJ9PlxuICAgICAgPHRoIHNjb3BlPVwicm93XCI+JHtsYWJlbHNbZC5zZXJpZXNdfTwvdGg+PHRkPiR7cGVyaW9kTmFtZShkLnBlcmlvZCl9PC90ZD5cbiAgICAgIDx0ZD4ke2ZtdChkLmFubnVhbF9jaGFuZ2UpfTwvdGQ+PHRkPiR7Zm10KGZpdmUuZ2V0KGQuc2VyaWVzKSl9PC90ZD48dGQ+JHtmbXQodGVuLmdldChkLnNlcmllcykpfTwvdGQ+PC90cj5gKX1cbiAgICA8L3Rib2R5PjwvdGFibGU+PC9kaXY+YDtcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZnJlcScpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtZWFzdXJlJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3llYXJzJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3BpY2tlZCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdjb21wYXJlWWVhcnMnKSJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/insurance\.feihuang\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>ABS, <a href="https://www.abs.gov.au/statistics/detailed-methodology-information/concepts-sources-methods/consumer-price-index-concepts-sources-and-methods/2025/price-collection">Consumer Price Index: Concepts, Sources and Methods, 2025</a>, paragraphs 6.33 and 8.126.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>ABS, <a href="https://www.abs.gov.au/AUSSTATS/abs@.nsf/94713ad445ff1425ca25682000192af2/e680f651d1d3a1eeca256f2a000f7750!OpenDocument">Treatment of Insurance Services in the Australian Consumer Price Index</a>, Australian Economic Indicators, October 2000.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Insurance Explained · A research-led public information project by <a href="https://www.feihuang.org">Fei Huang</a>, UNSW Sydney.<br> General information only. Not financial product advice. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://www.ai4insurance.org">AI4Insurance Lab</a> · <a href="./about.html#data">Data sources</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

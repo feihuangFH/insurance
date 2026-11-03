@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this website, please cite it as below."
+type: software
+authors:
+  - family-names: Huang
+    given-names: Fei
+    orcid: https://orcid.org/0000-0003-3406-5948
+    affiliation: "School of Risk and Actuarial Studies, UNSW Business School, UNSW Sydney"
+title: "Insurance Explained: Understanding Insurance Prices, Risks and Affordability"
+date-released: 2026-11-03
+url: "https://insurance.feihuang.org"
+repository-code: "https://github.com/feihuangFH/insurance"
+license: CC-BY-4.0
+abstract: >
+  A public information website on insurance prices, risks and affordability in
+  Australia. It tracks insurance price inflation using official ABS data,
+  explains how premiums are set and what drives them, and brings together
+  evidence published by regulators and industry bodies.
+keywords:
+  - insurance
+  - insurance pricing
+  - affordability
+  - inflation
+  - Consumer Price Index
+  - natural disasters
+  - Australia
