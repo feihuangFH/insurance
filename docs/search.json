@@ -39,7 +39,7 @@
     "href": "key-figures.html#definitions",
     "title": "Insurance Explained",
     "section": "Definitions",
-    "text": "Definitions\nInsurance (CPI). The ABS price index for comparable home building, home contents and motor vehicle insurance policies. It measures price change, not what households spend in total. It does not include health insurance, which the ABS classifies in the Health group.\nInsurance and financial services (CPI group). A broader group that also includes deposit and loan fees and other financial services. It is not the same as insurance.\nGross written premiums (APRA). Total premium revenue written by insurers. It grows with the number of policies and the value insured, as well as with prices, so it is not a measure of price inflation.\nAffordability stress (Actuaries Institute). A home insurance premium above four weeks of gross household income.\nUnderinsurance. Cover that would not pay the full cost of rebuilding or replacing what is insured. Different from affordability stress and from having no insurance."
+    "text": "Definitions\nInsurance (CPI). The ABS price index for comparable home building, home contents, motor vehicle and compulsory third party (CTP) insurance policies. It measures price change, not what households spend in total. It does not include health insurance, which the ABS classifies in the Health group.\nInsurance and financial services (CPI group). A broader group that also includes deposit and loan fees and other financial services. It is not the same as insurance.\nGross written premiums (APRA). Total premium revenue written by insurers. It grows with the number of policies and the value insured, as well as with prices, so it is not a measure of price inflation.\nAffordability stress (Actuaries Institute). A home insurance premium above four weeks of gross household income.\nUnderinsurance. Cover that would not pay the full cost of rebuilding or replacing what is insured. Different from affordability stress and from having no insurance."
   },
   {
     "objectID": "explainers/what-consumers-can-do.html",
@@ -144,7 +144,7 @@
     "href": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
     "title": "How does insurance contribute to inflation?",
     "section": "Insurance, and insurance and financial services",
-    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents and motor vehicle insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
+    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents, motor vehicle and compulsory third party insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
   },
   {
     "objectID": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
