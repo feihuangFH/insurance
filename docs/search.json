@@ -119,67 +119,53 @@
     "text": "What regulators and industry bodies report\n\nClaims costs\nABS prices for new dwellings rose 41.3% over the five years to the September quarter 2026, and prices for vehicle maintenance and repair rose 27.4%. Insurers told the ACCC that building material and labour cost inflation is one of the factors behind high premiums (ACCC 2025). The ACCC’s final report found that claims cost inflation and extreme weather events are pushing premiums higher across Australia (ACCC 2026).\n\n\nNatural disasters\nThe Insurance Council of Australia reported $7.17 billion in insured losses from more than 300,000 claims across the 2022 flood events (Insurance Council of Australia 2023). See How do natural disasters affect insurance premiums?\n\n\nReinsurance\nThe Actuaries Institute found that home insurance premium increases in the year to March 2024 were primarily a consequence of higher reinsurance costs during 2023 (Actuaries Institute 2024).\nAfter insurers joined the government-backed cyclone reinsurance pool, the ACCC found that average home insurance premiums per $100,000 sum insured in higher cyclone risk areas fell by 11% in the first year. In areas with no cyclone risk they rose 6%. Up to two years after insurers joined, premiums in higher-risk areas were 14% below pre-pool levels. Insurers are passing on the lower reinsurance rates to policyholders in higher cyclone risk areas (ACCC 2026).\n\n\nCapital, taxes and levies\nInsurers must hold capital against the risk of large losses, and the cost of that capital is part of the cost of insurance. Insurers also pay expenses, commissions, taxes and levies, and often pass these costs on to policyholders (Huang 2024).\n\n\nCompetition and pricing strategy\nASIC found that 31% of car insurance customers who contacted their insurer about a renewal obtained a lower premium without changing their cover (ASIC 2026). Pricing that takes account of how likely a customer is to shop around, known as price optimisation, is legal in Australia (Huang 2024).\n\n\nData and risk modelling\nThe ACCC’s Northern Australia Insurance Inquiry found that better access to data, and more sophisticated analysis of it, has enabled insurers in northern Australia to price risk at an individual address level, not at a postcode or regional level, particularly for cyclone and flood risk. This has resulted in very large premium increases for some customers, while lower-risk customers may have seen reductions (ACCC 2020, ix). In one case, an insurer’s move to address-level cyclone pricing raised one customer’s premium by 70%, from about $3,000 to $5,000, and lowered another’s by 21%, from about $1,900 to $1,500 (ACCC 2020, 65).\nWith AI and big data, insurers can estimate the risk of each property more accurately. This more individualised pricing can lead to higher premiums for properties with higher risk levels (Huang 2024).\n\nABS figures: ABS, Consumer Price Index, Australia (Data API, dataflow CPI), original series, retrieved 3 November 2026. Last reviewed 3 November 2026."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html",
-    "href": "explainers/insurance-and-inflation.html",
-    "title": "How does insurance contribute to inflation?",
+    "objectID": "explainers/insurance-types.html",
+    "href": "explainers/insurance-types.html",
+    "title": "What types of insurance do households buy?",
     "section": "",
-    "text": "Short answer\nInsurance makes up 1.36% of the Consumer Price Index basket. In the year to September 2026, insurance prices rose 5.4% and added 0.07 percentage points to the 4.3% rise in the CPI."
+    "text": "This page gives general information. It is not financial product advice and does not take your circumstances into account."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
-    "href": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
-    "title": "How does insurance contribute to inflation?",
-    "section": "How the CPI measures insurance",
-    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The index measures price change, not what households spend in total, and the ABS does not publish separate indexes for home and car insurance (ABS 2025).\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims, rather than by the gross premiums households pay. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates (ABS 2025)."
+    "objectID": "explainers/insurance-types.html#home-insurance",
+    "href": "explainers/insurance-types.html#home-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Home insurance",
+    "text": "Home insurance\n\nSource: (Moneysmart 2026b, 2026d).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nHome building\nRepairing or replacing the house when something goes wrong. It usually also covers fixtures and other structures on the property.\n\n\nHome contents\nReplacing household items and belongings if they are damaged, lost or stolen.\n\n\n\nHome building and contents cover can often be bundled into one policy. Renters do not need home building insurance, because insuring the building is the landlord’s responsibility. In strata properties such as apartments, the body corporate may be responsible for insuring the building. Owners are still responsible for insuring their own belongings. Renters can choose to take out contents insurance (Moneysmart 2026b)."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
-    "href": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
-    "title": "How does insurance contribute to inflation?",
-    "section": "How much insurance adds to inflation",
-    "text": "How much insurance adds to inflation\nAt the December quarter 2024 reweighting, insurance accounted for 1.36% of the all-groups CPI. In the year to September 2026, it contributed 0.07 percentage points of the 4.3% annual rise. The ABS calculates and publishes this contribution figure (ABS 2026a)."
+    "objectID": "explainers/insurance-types.html#car-insurance",
+    "href": "explainers/insurance-types.html#car-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Car insurance",
+    "text": "Car insurance\n\nSource: (Moneysmart 2026a).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nCompulsory third party (CTP)\nInjuries to people caused by your car. It does not pay for damage to cars or property.\n\n\nThird party property damage\nDamage your car causes to other people’s cars or property. It does not cover your own car.\n\n\nThird party property, fire and theft\nThe same as third party property damage, plus your own car if it is stolen or damaged by fire.\n\n\nComprehensive\nDamage to your car and to other people’s cars or property, even if you caused the accident. It also covers theft, fire and weather events.\n\n\n\nCTP is the only compulsory type of car insurance. You need it to register a car, and in some states it is included in the registration cost (Moneysmart 2026a)."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
-    "href": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
-    "title": "How does insurance contribute to inflation?",
-    "section": "Insurance, and insurance and financial services",
-    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents, motor vehicle and compulsory third party insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
+    "objectID": "explainers/insurance-types.html#life-and-health-insurance",
+    "href": "explainers/insurance-types.html#life-and-health-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Life and health insurance",
+    "text": "Life and health insurance\nLife insurance pays out if you die, become seriously ill or cannot work. Moneysmart names four main types. These are life cover, total and permanent disability (TPD) insurance, trauma insurance and income protection insurance. Most super funds offer life, TPD and income protection insurance to their members (Moneysmart 2026c).\nHealth insurance helps manage the cost of private medical expenses not covered by Medicare (Moneysmart 2026d)."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
-    "href": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
-    "title": "How does insurance contribute to inflation?",
-    "section": "The Selected Living Cost Indexes",
-    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay, rather than the net value used in the CPI (ABS 2026b)."
+    "objectID": "explainers/insurance-types.html#other-types",
+    "href": "explainers/insurance-types.html#other-types",
+    "title": "What types of insurance do households buy?",
+    "section": "Other types",
+    "text": "Other types\nMoneysmart also covers travel, pet, mobile phone and funeral insurance (Moneysmart 2026d). Its insurance guides explain how to choose and compare each type."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#taxes-on-premiums",
-    "href": "explainers/insurance-and-inflation.html#taxes-on-premiums",
-    "title": "How does insurance contribute to inflation?",
-    "section": "Taxes on premiums",
-    "text": "Taxes on premiums\nWhen the GST was introduced in 2000, the CPI insurance index rose about 30% in a year, much more than the premiums households paid. Taxes are charged on gross premiums but were measured against the smaller net base used in the CPI (ABS 2000).\n\nLast reviewed 4 November 2026."
-  },
-  {
-    "objectID": "commentary.html#articles",
-    "href": "commentary.html#articles",
-    "title": "Insurance Explained",
-    "section": "Articles",
-    "text": "Articles"
-  },
-  {
-    "objectID": "commentary.html#featured-in",
-    "href": "commentary.html#featured-in",
-    "title": "Insurance Explained",
-    "section": "Featured in",
-    "text": "Featured in"
+    "objectID": "explainers/insurance-types.html#what-this-site-covers",
+    "href": "explainers/insurance-types.html#what-this-site-covers",
+    "title": "What types of insurance do households buy?",
+    "section": "What this site covers",
+    "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is in the Health group of the CPI, not in insurance (ABS 2025). The figures and explainers on this site therefore focus on home and car insurance.\n\nLast reviewed 4 November 2026."
   },
   {
     "objectID": "about.html#why-this-site-exists",
     "href": "about.html#why-this-site-exists",
     "title": "Insurance Explained",
     "section": "Why this site exists",
-    "text": "Why this site exists\nInsurance costs have become a major part of the cost-of-living debate in Australia. Useful information is published by the Australian Bureau of Statistics, APRA, ASIC, the ACCC, the Reserve Bank, the Actuaries Institute and others. Each serves a different purpose, and their measures are easy to misread when combined.\nInsurance Explained brings these sources into one place and explains what each one measures. It helps answer four questions:\n\nWhat is happening? How insurance prices, claims, risks and affordability are changing.\nWhy is it happening? Which explanations are supported by evidence, and how strongly.\nWhy does it matter? The consequences for households, insurers, policymakers and society.\nWhat can be done? Practical steps for consumers, and options for insurers, regulators and governments."
+    "text": "Why this site exists\nInsurance costs have become a major part of the cost-of-living debate in Australia. Useful information is published by the Australian Bureau of Statistics, APRA, ASIC, the ACCC, the Reserve Bank, the Actuaries Institute and others. Each serves a different purpose, and their measures are easy to misread when combined.\nThe site covers the insurance most households buy for their home and car. These are home building, home contents and motor vehicle insurance, including compulsory third party (CTP) insurance. It does not cover health or life insurance. What types of insurance do households buy? explains the main types.\nInsurance Explained brings these sources into one place and explains what each one measures. It helps answer four questions:\n\nWhat is happening? How insurance prices, claims, risks and affordability are changing.\nWhy is it happening? Which explanations are supported by evidence, and how strongly.\nWhy does it matter? The consequences for households, insurers, policymakers and society.\nWhat can be done? Practical steps for consumers, and options for insurers, regulators and governments."
   },
   {
     "objectID": "about.html#academic-leadership",
@@ -222,6 +208,62 @@
     "title": "Insurance Explained",
     "section": "Contact",
     "text": "Contact\nFei Huang\nEmail: feihuang@unsw.edu.au\nWebsite: www.feihuang.org"
+  },
+  {
+    "objectID": "commentary.html#articles",
+    "href": "commentary.html#articles",
+    "title": "Insurance Explained",
+    "section": "Articles",
+    "text": "Articles"
+  },
+  {
+    "objectID": "commentary.html#featured-in",
+    "href": "commentary.html#featured-in",
+    "title": "Insurance Explained",
+    "section": "Featured in",
+    "text": "Featured in"
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html",
+    "href": "explainers/insurance-and-inflation.html",
+    "title": "How does insurance contribute to inflation?",
+    "section": "",
+    "text": "Short answer\nInsurance makes up 1.36% of the Consumer Price Index basket. In the year to September 2026, insurance prices rose 5.4% and added 0.07 percentage points to the 4.3% rise in the CPI."
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
+    "href": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
+    "title": "How does insurance contribute to inflation?",
+    "section": "How the CPI measures insurance",
+    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The index measures price change, not what households spend in total, and the ABS does not publish separate indexes for home and car insurance (ABS 2025).\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims, rather than by the gross premiums households pay. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates (ABS 2025)."
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
+    "href": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
+    "title": "How does insurance contribute to inflation?",
+    "section": "How much insurance adds to inflation",
+    "text": "How much insurance adds to inflation\nAt the December quarter 2024 reweighting, insurance accounted for 1.36% of the all-groups CPI. In the year to September 2026, it contributed 0.07 percentage points of the 4.3% annual rise. The ABS calculates and publishes this contribution figure (ABS 2026a)."
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
+    "href": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
+    "title": "How does insurance contribute to inflation?",
+    "section": "Insurance, and insurance and financial services",
+    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents, motor vehicle and compulsory third party insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
+    "href": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
+    "title": "How does insurance contribute to inflation?",
+    "section": "The Selected Living Cost Indexes",
+    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay, rather than the net value used in the CPI (ABS 2026b)."
+  },
+  {
+    "objectID": "explainers/insurance-and-inflation.html#taxes-on-premiums",
+    "href": "explainers/insurance-and-inflation.html#taxes-on-premiums",
+    "title": "How does insurance contribute to inflation?",
+    "section": "Taxes on premiums",
+    "text": "Taxes on premiums\nWhen the GST was introduced in 2000, the CPI insurance index rose about 30% in a year, much more than the premiums households paid. Taxes are charged on gross premiums but were measured against the smaller net base used in the CPI (ABS 2000).\n\nLast reviewed 4 November 2026."
   },
   {
     "objectID": "explainers/natural-disasters.html",
