@@ -14,14 +14,16 @@ export const labels = {
   "Insurance": "Insurance",
   "All groups CPI": "All-groups CPI",
   "Insurance and financial services": "Insurance and financial services group",
-  "Food and non-alcoholic beverages": "Food and non-alcoholic drinks",
-  "Rents": "Rents",
-  "Electricity": "Electricity",
-  "Automotive fuel": "Automotive fuel",
-  "Medical and hospital services": "Medical and hospital services",
-  "Child care": "Child care",
-  "New dwelling purchase by owner-occupiers": "New dwellings (owner-occupiers)",
-  "Maintenance and repair of motor vehicles": "Vehicle maintenance and repair"
+  "Food and non-alcoholic beverages": "Food and non-alcoholic beverages",
+  "Alcohol and tobacco": "Alcohol and tobacco",
+  "Clothing and footwear": "Clothing and footwear",
+  "Housing": "Housing",
+  "Furnishings, household equipment and services": "Furnishings, household equipment and services",
+  "Health": "Health",
+  "Transport": "Transport",
+  "Communication": "Communication",
+  "Recreation and culture": "Recreation and culture",
+  "Education": "Education"
 };
 
 // Events that change measured insurance prices for reasons other than insurance costs.
@@ -137,10 +139,22 @@ export function changeOver(rows, years) {
   return out;
 }
 
+// Breaks a long label into lines of at most n characters, at word boundaries.
+function wrapLabel(text, n) {
+  const lines = [];
+  let line = "";
+  for (const word of text.split(" ")) {
+    if (line && (line + " " + word).length > n) { lines.push(line); line = word; }
+    else line = line ? line + " " + word : word;
+  }
+  lines.push(line);
+  return lines.join("\n");
+}
+
 export function categoryChart(Plot, data, {width}) {
   const narrow = width < 600;
   const cpi = data.find(d => d.series === "All groups CPI");
-  const bars = data.filter(d => d.series !== "All groups CPI" && d.series !== "Insurance and financial services");
+  const bars = data.filter(d => d.series !== "All groups CPI");
   const valueLabel = (rows, options) => [
     Plot.text(rows.filter(d => d.v >= 0), {y: "label", x: "v", text: d => fmt(d.v), textAnchor: "start", dx: 5, ...options}),
     Plot.text(rows.filter(d => d.v < 0), {y: "label", x: "v", text: d => fmt(d.v), textAnchor: "end", dx: -5, ...options})
@@ -149,13 +163,13 @@ export function categoryChart(Plot, data, {width}) {
   const rest = bars.filter(d => d.series !== "Insurance");
   return Plot.plot({
     width,
-    height: 34 * bars.length + 60,
-    marginLeft: narrow ? 150 : 220,
+    height: (narrow ? 40 : 34) * bars.length + 60,
+    marginLeft: narrow ? 130 : 300,
     marginRight: 56,
     marginTop: 34,
     style: {fontFamily: "Inter, system-ui, sans-serif", fontSize: narrow ? "11px" : "12.5px", color: colours.text},
     x: {label: null, grid: true, tickFormat: d => `${d}%`},
-    y: {label: null, domain: bars.slice().sort((a, b) => b.v - a.v).map(d => d.label), tickSize: 0},
+    y: {label: null, domain: bars.slice().sort((a, b) => b.v - a.v).map(d => d.label), tickSize: 0, tickFormat: d => narrow ? wrapLabel(d, 20) : d},
     marks: [
       Plot.barX(rest, {y: "label", x: "v", fill: colours.muted, insetTop: 5, insetBottom: 5}),
       Plot.barX(ins, {y: "label", x: "v", fill: colours.Insurance, insetTop: 5, insetBottom: 5}),
@@ -165,6 +179,6 @@ export function categoryChart(Plot, data, {width}) {
       Plot.ruleX([cpi.v], {stroke: "#12233f", strokeDasharray: "4,3"}),
       Plot.text([cpi], {x: "v", frameAnchor: "top", text: d => `All-groups CPI ${fmt(d.v)}`, dy: -18, textAnchor: "middle", fill: "#12233f", fontSize: 11})
     ],
-    ariaLabel: "Bar chart comparing price changes across household spending categories"
+    ariaLabel: "Bar chart comparing price changes for insurance and the 11 CPI groups"
   });
 }
