@@ -210,20 +210,6 @@
     "text": "Taxes on premiums\nWhen the GST was introduced in 2000, the CPI insurance index rose about 30% in a year. The premiums households paid rose much less. At the time, the CPI valued insurance at premiums less claims, which is much smaller than the premium. The GST was charged on the full premium, so the extra tax was a far larger share of the CPI’s value than of the premium. In an ABS example, a rise in tax from 5% to 15% lifted the premium by 9.5% but the CPI’s value by 22.2% (ABS 2000).\n\nLast reviewed 5 November 2026."
   },
   {
-    "objectID": "commentary.html#articles",
-    "href": "commentary.html#articles",
-    "title": "Insurance Explained",
-    "section": "Articles",
-    "text": "Articles"
-  },
-  {
-    "objectID": "commentary.html#featured-in",
-    "href": "commentary.html#featured-in",
-    "title": "Insurance Explained",
-    "section": "Featured in",
-    "text": "Featured in"
-  },
-  {
     "objectID": "about.html#why-this-site-exists",
     "href": "about.html#why-this-site-exists",
     "title": "Insurance Explained",
@@ -278,6 +264,62 @@
     "title": "Insurance Explained",
     "section": "Contact",
     "text": "Contact\nFei Huang\nEmail: feihuang@unsw.edu.au\nWebsite: www.feihuang.org"
+  },
+  {
+    "objectID": "commentary.html#articles",
+    "href": "commentary.html#articles",
+    "title": "Insurance Explained",
+    "section": "Articles",
+    "text": "Articles"
+  },
+  {
+    "objectID": "commentary.html#featured-in",
+    "href": "commentary.html#featured-in",
+    "title": "Insurance Explained",
+    "section": "Featured in",
+    "text": "Featured in"
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html",
+    "href": "explainers/data-and-fairness.html",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "",
+    "text": "This page gives general information. It is not legal advice and does not take your circumstances into account."
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html#what-insurers-use",
+    "href": "explainers/data-and-fairness.html#what-insurers-use",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "What insurers use",
+    "text": "What insurers use\nInformation from customers. When buying consumer insurance, a customer has a duty to take reasonable care not to make a misrepresentation to the insurer before the contract is entered into (Commonwealth of Australia 1984a).\nProperty and location data. The ACCC found that better access to data, and more sophisticated analysis of it, has enabled insurers to price risk at an individual address level, not at a postcode or regional level (ACCC 2020, ix). Insurers model each natural peril separately. These models are often built by specialists or reinsurers and supplemented with insurers’ own claims data (ACCC 2020, 62).\nCustomer behaviour. Pricing that takes account of how likely a customer is to shop around, known as price optimisation, is legal in Australia (Huang 2024)."
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
+    "href": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "What anti-discrimination law allows",
+    "text": "What anti-discrimination law allows\nFederal anti-discrimination law covers insurance. The Age, Disability and Sex Discrimination Acts each include an exemption for insurance:\n\nAge (section 37) and disability (section 46). Discrimination in the terms of a policy, or in refusing to offer one, is not unlawful if it is based on actuarial or statistical data on which it is reasonable to rely, and is reasonable having regard to the data and other relevant factors. Where no such data is available and cannot reasonably be obtained, the discrimination must be reasonable having regard to other relevant factors (Commonwealth of Australia 2004, 1992).\nSex (section 41). Discrimination in the terms on which a policy is offered is not unlawful if it is based on actuarial or statistical data from a source on which it is reasonable to rely, and is reasonable having regard to the data. A customer can ask the insurer in writing for access to the data (Commonwealth of Australia 1984b).\n\nThe Racial Discrimination Act has no such exemption. The Australian Human Rights Commission and the Actuaries Institute state that no such exemption applies under that Act. Insurers also have obligations under state and territory anti-discrimination laws (Australian Human Rights Commission and Actuaries Institute 2022)."
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
+    "href": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "When data-driven pricing can be unfair",
+    "text": "When data-driven pricing can be unfair\nDiscrimination can be direct or indirect. Indirect discrimination occurs when a requirement that applies to everyone disadvantages people with a protected attribute, and the requirement is not reasonable in the circumstances (Australian Human Rights Commission and Actuaries Institute 2022).\nRemoving a protected attribute, such as race, from the data may not be enough. In a rich or detailed dataset, other information can act as a proxy for that attribute. The Australian Human Rights Commission and the Actuaries Institute advise insurers to test their models to check whether they actually avoid discriminatory outcomes (Australian Human Rights Commission and Actuaries Institute 2022)."
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html#transparency",
+    "href": "explainers/data-and-fairness.html#transparency",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "Transparency",
+    "text": "Transparency\nASIC found that no insurer in its review of car insurance explained the key factors behind a premium in quote and renewal documents (ASIC 2026). In the 2026–27 Budget, the Government funded Treasury to develop and consult on options to make the basis of home and contents premiums clearer (Commonwealth of Australia 2026)."
+  },
+  {
+    "objectID": "explainers/data-and-fairness.html#further-reading",
+    "href": "explainers/data-and-fairness.html#further-reading",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "Further reading",
+    "text": "Further reading\n\nFei Huang, Insurers have a lot of data about us. Where do they get it, and how do they use it?, The Conversation, 24 August 2026.\nAustralian Human Rights Commission and Actuaries Institute, Guidance resource: AI and discrimination in insurance, December 2022.\n\n\nLast reviewed 5 November 2026."
   },
   {
     "objectID": "explainers/insurance-types.html",
