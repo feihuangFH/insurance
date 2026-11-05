@@ -59,7 +59,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -79,7 +98,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-381d451fe4b2594bcda714dd8767dc99.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-449c99dc75900647cd13df64ea4b3f73.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -388,6 +407,10 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 <p>What households pay in total, which also moves with sums insured, coverage choices and risk. Individual premiums can change by more or less than the index. It does not show separate figures for home and car insurance, because the ABS does not publish them below this level. It also does not show why prices changed.</p>
 </section>
 </div>
+<section id="why-prices-rose-so-fast-in-202324" class="level3 chart-context">
+<h3 data-anchor-id="why-prices-rose-so-fast-in-202324">Why prices rose so fast in 2023–24</h3>
+<p>Annual growth in insurance prices peaked at 16.4% in the year to the March quarter 2024. Published sources point to three main causes. Reinsurance costs rose sharply. The Actuaries Institute found that home insurance premium increases in the year to March 2024 were primarily a consequence of higher reinsurance costs during 2023 <span class="citation" data-cites="actuaries2024">(<a href="#ref-actuaries2024" role="doc-biblioref">Actuaries Institute 2024</a>)</span>, and the Reserve Bank reported that general insurers’ reinsurance expenses rose by over 50% between June 2018 and June 2023 <span class="citation" data-cites="rbafsr2023">(<a href="#ref-rbafsr2023" role="doc-biblioref">Reserve Bank of Australia 2023</a>)</span>. Disaster losses were large, with the 2022 floods causing $7.17 billion in insured losses <span class="citation" data-cites="ica2023">(<a href="#ref-ica2023" role="doc-biblioref">Insurance Council of Australia 2023</a>)</span>. Building costs also rose quickly. The Insurance Council reports that annual construction cost inflation peaked above 11% in 2022 <span class="citation" data-cites="icacatreport2026">(<a href="#ref-icacatreport2026" role="doc-biblioref">Insurance Council of Australia 2026</a>)</span>. Price growth slowed to below 3% in the second half of 2025, and by March 2026 the Reserve Bank described a softening reinsurance market <span class="citation" data-cites="rbafsr2026">(<a href="#ref-rbafsr2026" role="doc-biblioref">Reserve Bank of Australia 2026</a>)</span>.</p>
+</section>
 </div>
 <!-- Chart A2 -->
 <div class="chart-panel mt">
@@ -397,7 +420,7 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 </section>
 <div class="chart-controls">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb8" data-startfrom="166" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 165;"><span id="cb8-166"><a href="#cb8-166" aria-hidden="true" tabindex="-1"></a>viewof compareYears <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(<span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"5 years"</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> [<span class="st">"10 years"</span><span class="op">,</span> <span class="dv">10</span>]])<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb8" data-startfrom="171" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 170;"><span id="cb8-171"><a href="#cb8-171" aria-hidden="true" tabindex="-1"></a>viewof compareYears <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(<span class="kw">new</span> <span class="bu">Map</span>([[<span class="st">"5 years"</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> [<span class="st">"10 years"</span><span class="op">,</span> <span class="dv">10</span>]])<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-8" data-nodetype="declaration">
 
@@ -406,8 +429,8 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb9" data-startfrom="173" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 172;"><span id="cb9-173"><a href="#cb9-173" aria-hidden="true" tabindex="-1"></a>categoryData <span class="op">=</span> <span class="fu">changeOver</span>(quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> labels[d<span class="op">.</span><span class="at">series</span>])<span class="op">,</span> compareYears)</span>
-<span id="cb9-174"><a href="#cb9-174" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`Price change from the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">from</span>)<span class="sc">}</span><span class="vs"> to the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">to</span>)<span class="sc">}</span><span class="vs">. The dashed line marks the all-groups CPI.`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb9" data-startfrom="178" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 177;"><span id="cb9-178"><a href="#cb9-178" aria-hidden="true" tabindex="-1"></a>categoryData <span class="op">=</span> <span class="fu">changeOver</span>(quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> labels[d<span class="op">.</span><span class="at">series</span>])<span class="op">,</span> compareYears)</span>
+<span id="cb9-179"><a href="#cb9-179" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`Price change from the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">from</span>)<span class="sc">}</span><span class="vs"> to the </span><span class="sc">${</span><span class="fu">periodName</span>(categoryData[<span class="dv">0</span>]<span class="op">.</span><span class="at">to</span>)<span class="sc">}</span><span class="vs">. The dashed line marks the all-groups CPI.`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-9-1" data-nodetype="declaration">
@@ -424,7 +447,7 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb10" data-startfrom="178" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 177;"><span id="cb10-178"><a href="#cb10-178" aria-hidden="true" tabindex="-1"></a><span class="fu">categoryChart</span>(Plot<span class="op">,</span> categoryData<span class="op">,</span> {width})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb10" data-startfrom="183" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 182;"><span id="cb10-183"><a href="#cb10-183" aria-hidden="true" tabindex="-1"></a><span class="fu">categoryChart</span>(Plot<span class="op">,</span> categoryData<span class="op">,</span> {width})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-10" data-nodetype="expression">
 
@@ -452,21 +475,21 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 <p>The figures behind the charts, for quoting and checking.</p>
 </section>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb11" data-startfrom="211" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 210;"><span id="cb11-211"><a href="#cb11-211" aria-hidden="true" tabindex="-1"></a>latestTable <span class="op">=</span> {</span>
-<span id="cb11-212"><a href="#cb11-212" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> five <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">5</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
-<span id="cb11-213"><a href="#cb11-213" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ten <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">10</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
-<span id="cb11-214"><a href="#cb11-214" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> order <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(labels)<span class="op">;</span></span>
-<span id="cb11-215"><a href="#cb11-215" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> latest <span class="op">=</span> order<span class="op">.</span><span class="fu">map</span>(s <span class="kw">=&gt;</span> {</span>
-<span id="cb11-216"><a href="#cb11-216" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> rows <span class="op">=</span> quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> s)<span class="op">;</span></span>
-<span id="cb11-217"><a href="#cb11-217" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> rows<span class="op">.</span><span class="at">length</span> <span class="op">?</span> rows<span class="op">.</span><span class="fu">reduce</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> (a<span class="op">.</span><span class="at">date</span> <span class="op">&gt;</span> b<span class="op">.</span><span class="at">date</span> <span class="op">?</span> a <span class="op">:</span> b)) <span class="op">:</span> <span class="kw">null</span><span class="op">;</span></span>
-<span id="cb11-218"><a href="#cb11-218" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">filter</span>(<span class="bu">Boolean</span>)<span class="op">;</span></span>
-<span id="cb11-219"><a href="#cb11-219" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="table-scroll"&gt;&lt;table class="data-table"&gt;</span></span>
-<span id="cb11-220"><a href="#cb11-220" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;thead&gt;&lt;tr&gt;&lt;th scope="col"&gt;Series&lt;/th&gt;&lt;th scope="col"&gt;Latest quarter&lt;/th&gt;&lt;th scope="col"&gt;Annual change (quarter)&lt;/th&gt;&lt;th scope="col"&gt;5-year change&lt;/th&gt;&lt;th scope="col"&gt;10-year change&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</span></span>
-<span id="cb11-221"><a href="#cb11-221" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;tbody&gt;</span><span class="sc">${</span>latest<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;tr class=</span><span class="sc">${</span>d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> <span class="st">"Insurance"</span> <span class="op">?</span> <span class="st">"hl"</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span><span class="vs">&gt;</span></span>
-<span id="cb11-222"><a href="#cb11-222" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;th scope="row"&gt;</span><span class="sc">${</span>labels[d<span class="op">.</span><span class="at">series</span>]<span class="sc">}</span><span class="vs">&lt;/th&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">periodName</span>(d<span class="op">.</span><span class="at">period</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb11-223"><a href="#cb11-223" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(d<span class="op">.</span><span class="at">annual_change</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(five<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(ten<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;/tr&gt;`</span>)<span class="sc">}</span></span>
-<span id="cb11-224"><a href="#cb11-224" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;`</span><span class="op">;</span></span>
-<span id="cb11-225"><a href="#cb11-225" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb11" data-startfrom="216" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 215;"><span id="cb11-216"><a href="#cb11-216" aria-hidden="true" tabindex="-1"></a>latestTable <span class="op">=</span> {</span>
+<span id="cb11-217"><a href="#cb11-217" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> five <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">5</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
+<span id="cb11-218"><a href="#cb11-218" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ten <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="fu">changeOver</span>(quarterly<span class="op">,</span> <span class="dv">10</span>)<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> [d<span class="op">.</span><span class="at">series</span><span class="op">,</span> d<span class="op">.</span><span class="at">v</span>]))<span class="op">;</span></span>
+<span id="cb11-219"><a href="#cb11-219" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> order <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(labels)<span class="op">;</span></span>
+<span id="cb11-220"><a href="#cb11-220" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> latest <span class="op">=</span> order<span class="op">.</span><span class="fu">map</span>(s <span class="kw">=&gt;</span> {</span>
+<span id="cb11-221"><a href="#cb11-221" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> rows <span class="op">=</span> quarterly<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> s)<span class="op">;</span></span>
+<span id="cb11-222"><a href="#cb11-222" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> rows<span class="op">.</span><span class="at">length</span> <span class="op">?</span> rows<span class="op">.</span><span class="fu">reduce</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> (a<span class="op">.</span><span class="at">date</span> <span class="op">&gt;</span> b<span class="op">.</span><span class="at">date</span> <span class="op">?</span> a <span class="op">:</span> b)) <span class="op">:</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb11-223"><a href="#cb11-223" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">filter</span>(<span class="bu">Boolean</span>)<span class="op">;</span></span>
+<span id="cb11-224"><a href="#cb11-224" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="table-scroll"&gt;&lt;table class="data-table"&gt;</span></span>
+<span id="cb11-225"><a href="#cb11-225" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;thead&gt;&lt;tr&gt;&lt;th scope="col"&gt;Series&lt;/th&gt;&lt;th scope="col"&gt;Latest quarter&lt;/th&gt;&lt;th scope="col"&gt;Annual change (quarter)&lt;/th&gt;&lt;th scope="col"&gt;5-year change&lt;/th&gt;&lt;th scope="col"&gt;10-year change&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</span></span>
+<span id="cb11-226"><a href="#cb11-226" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;tbody&gt;</span><span class="sc">${</span>latest<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;tr class=</span><span class="sc">${</span>d<span class="op">.</span><span class="at">series</span> <span class="op">===</span> <span class="st">"Insurance"</span> <span class="op">?</span> <span class="st">"hl"</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span><span class="vs">&gt;</span></span>
+<span id="cb11-227"><a href="#cb11-227" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;th scope="row"&gt;</span><span class="sc">${</span>labels[d<span class="op">.</span><span class="at">series</span>]<span class="sc">}</span><span class="vs">&lt;/th&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">periodName</span>(d<span class="op">.</span><span class="at">period</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb11-228"><a href="#cb11-228" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(d<span class="op">.</span><span class="at">annual_change</span>)<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(five<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;td&gt;</span><span class="sc">${</span><span class="fu">fmt</span>(ten<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">series</span>))<span class="sc">}</span><span class="vs">&lt;/td&gt;&lt;/tr&gt;`</span>)<span class="sc">}</span></span>
+<span id="cb11-229"><a href="#cb11-229" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;`</span><span class="op">;</span></span>
+<span id="cb11-230"><a href="#cb11-230" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-11" data-nodetype="declaration">
 
@@ -504,6 +527,10 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 </div>
 
 
+<section id="bibliography" class="level1 unnumbered">
+
+
+</section>
 
 
 
@@ -918,7 +945,23 @@ window._ojs.runtime.interpretFromScriptTags();
     }
   });
   </script>
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Sources</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-actuaries2024" class="csl-entry" role="listitem">
+Actuaries Institute. 2024. <em><span class="nocase">Home Insurance Affordability and Home Loans at Risk</span></em>. Actuaries Institute. <a href="https://www.actuaries.asn.au/research-analysis/thought-leadership/home-insurance-affordability-and-home-loans-at-risk">https://www.actuaries.asn.au/research-analysis/thought-leadership/home-insurance-affordability-and-home-loans-at-risk</a>.
+</div>
+<div id="ref-ica2023" class="csl-entry" role="listitem">
+Insurance Council of Australia. 2023. <em><span class="nocase">Inquiry on insurers’ 2022 flood response welcomed</span></em>. <a href="https://insurancecouncil.com.au/?p=4590">https://insurancecouncil.com.au/?p=4590</a>.
+</div>
+<div id="ref-icacatreport2026" class="csl-entry" role="listitem">
+Insurance Council of Australia. 2026. <em><span>Insurance Catastrophe Resilience Report 2025–26</span></em>. Insurance Council of Australia. <a href="https://insurancecouncil.com.au/wp-content/uploads/2026/08/21529_ICA_CAT-Report_2026_Final-single-pages.pdf">https://insurancecouncil.com.au/wp-content/uploads/2026/08/21529_ICA_CAT-Report_2026_Final-single-pages.pdf</a>.
+</div>
+<div id="ref-rbafsr2023" class="csl-entry" role="listitem">
+Reserve Bank of Australia. 2023. <em><span class="nocase">Financial Stability Review, October 2023: Resilience of the Australian financial system</span></em>. <a href="https://www.rba.gov.au/publications/fsr/2023/oct/australian-financial-system.html">https://www.rba.gov.au/publications/fsr/2023/oct/australian-financial-system.html</a>.
+</div>
+<div id="ref-rbafsr2026" class="csl-entry" role="listitem">
+Reserve Bank of Australia. 2026. <em><span class="nocase">Financial Stability Review, March 2026: Resilience of the Australian financial system</span></em>. <a href="https://www.rba.gov.au/publications/fsr/2026/mar/resilience-of-the-australian-financial-system.html">https://www.rba.gov.au/publications/fsr/2026/mar/resilience-of-the-australian-financial-system.html</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>ABS, <a href="https://www.abs.gov.au/statistics/detailed-methodology-information/concepts-sources-methods/consumer-price-index-concepts-sources-and-methods/2025/price-collection">Consumer Price Index: Concepts, Sources and Methods, 2025</a>, paragraphs 6.33 and 8.126.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
