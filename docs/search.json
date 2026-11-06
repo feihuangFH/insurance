@@ -214,7 +214,7 @@
     "href": "about.html#why-this-site-exists",
     "title": "Insurance Explained",
     "section": "Why this site exists",
-    "text": "Why this site exists\nInsurance costs have become a major part of the cost-of-living debate in Australia. Useful information is published by the Australian Bureau of Statistics, APRA, ASIC, the ACCC, the Reserve Bank, the Actuaries Institute and others. Each serves a different purpose, and their measures are easy to misread when combined.\nThe site covers the insurance most households buy for their home and car. These are home building, home contents and motor vehicle insurance, including compulsory third party (CTP) insurance. It does not cover health or life insurance. What types of insurance do households buy? explains the main types.\nInsurance Explained brings these sources into one place and explains what each one measures. It helps answer four questions:\n\nWhat is happening? How insurance prices, claims, risks and affordability are changing.\nWhy is it happening? Which explanations are supported by evidence, and how strongly.\nWhy does it matter? The consequences for households, insurers, policymakers and society.\nWhat can be done? Practical steps for consumers, and options for insurers, regulators and governments."
+    "text": "Why this site exists\nInsurance costs have become a major part of the cost-of-living debate in Australia. Useful information is published by the Australian Bureau of Statistics, APRA, ASIC, the ACCC, the Reserve Bank, the Actuaries Institute and others. Each serves a different purpose, and their measures are easy to misread when combined.\nThe site focuses on the insurance most households buy for their home and car. These are home building, home contents and motor vehicle insurance, including compulsory third party (CTP) insurance. What types of insurance do households buy? also gives a short introduction to life, health, travel, pet, landlord and business insurance, with links to official guidance.\nInsurance Explained brings these sources into one place and explains what each one measures. It helps answer four questions:\n\nWhat is happening? How insurance prices, claims, risks and affordability are changing.\nWhy is it happening? Which explanations are supported by evidence, and how strongly.\nWhy does it matter? The consequences for households, insurers, policymakers and society.\nWhat can be done? Practical steps for consumers, and options for insurers, regulators and governments."
   },
   {
     "objectID": "about.html#who-runs-this-site",
@@ -333,7 +333,7 @@
     "href": "explainers/insurance-types.html#home-insurance",
     "title": "What types of insurance do households buy?",
     "section": "Home insurance",
-    "text": "Home insurance\n\nSource: (Moneysmart 2026b, 2026d).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nHome building\nRepairing or replacing the house when something goes wrong. It usually also covers fixtures and other structures on the property.\n\n\nHome contents\nReplacing household items and belongings if they are damaged, lost or stolen.\n\n\n\nHome building and contents cover can often be bundled into one policy. Renters do not need home building insurance, because insuring the building is the landlord’s responsibility. In strata properties such as apartments, the body corporate may be responsible for insuring the building. Owners are still responsible for insuring their own belongings. Renters can choose to take out contents insurance (Moneysmart 2026b)."
+    "text": "Home insurance\n\nSource: (Moneysmart 2026b, 2026f).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nHome building\nRepairing or replacing the house when something goes wrong. It usually also covers fixtures and other structures on the property.\n\n\nHome contents\nReplacing household items and belongings if they are damaged, lost or stolen.\n\n\n\nHome building and contents cover can often be bundled into one policy. Renters do not need home building insurance, because insuring the building is the landlord’s responsibility. In strata properties such as apartments, the body corporate may be responsible for insuring the building. Owners are still responsible for insuring their own belongings. Renters can choose to take out contents insurance (Moneysmart 2026b)."
   },
   {
     "objectID": "explainers/insurance-types.html#car-insurance",
@@ -343,25 +343,60 @@
     "text": "Car insurance\n\nSource: (Moneysmart 2026a).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nCompulsory third party (CTP)\nInjuries to people caused by your car. It does not pay for damage to cars or property.\n\n\nThird party property damage\nDamage your car causes to other people’s cars or property. It does not cover your own car.\n\n\nThird party property, fire and theft\nThe same as third party property damage, plus your own car if it is stolen or damaged by fire.\n\n\nComprehensive\nDamage to your car and to other people’s cars or property, even if you caused the accident. It also covers theft, fire and weather events.\n\n\n\nCTP is the only compulsory type of car insurance. You need it to register a car, and in some states it is included in the registration cost (Moneysmart 2026a)."
   },
   {
-    "objectID": "explainers/insurance-types.html#life-and-health-insurance",
-    "href": "explainers/insurance-types.html#life-and-health-insurance",
+    "objectID": "explainers/insurance-types.html#life-insurance",
+    "href": "explainers/insurance-types.html#life-insurance",
     "title": "What types of insurance do households buy?",
-    "section": "Life and health insurance",
-    "text": "Life and health insurance\nLife insurance pays out if you die, become seriously ill or cannot work. Moneysmart names four main types. These are life cover, total and permanent disability (TPD) insurance, trauma insurance and income protection insurance. Most super funds offer life, TPD and income protection insurance to their members (Moneysmart 2026c).\nHealth insurance helps manage the cost of private medical expenses not covered by Medicare (Moneysmart 2026d)."
+    "section": "Life insurance",
+    "text": "Life insurance\n\nSource: (Moneysmart 2026f).\n\n\n\n\n\n\nType\nWhat it covers\n\n\n\n\nLife cover\nGenerally pays a lump sum to your loved ones if you die.\n\n\nTotal and permanent disability (TPD)\nA safety net if illness or injury means you can never work again.\n\n\nTrauma\nA lump sum if you are diagnosed with a serious illness or are injured.\n\n\nIncome protection\nReplaces your income, or part of it, while you recover from illness or injury.\n\n\n\nMost super funds offer life, TPD and income protection insurance to their members (Moneysmart 2026d). Premiums for cover through super are deducted from the super balance, which reduces retirement savings over time (Moneysmart 2026e).\nFor income protection, insurers usually ask about age, job, income, medical and family health history, smoking and lifestyle, and high-risk hobbies or sports. This information helps them decide whether to insure you, the premium and the policy terms. Income protection usually replaces a percentage of pre-tax income, such as 75% or 90%. Most policies have a waiting period of between 14 days and two years before payments start, and pay for two or five years, or up to a set age such as 65 (Moneysmart 2026e)."
+  },
+  {
+    "objectID": "explainers/insurance-types.html#health-insurance",
+    "href": "explainers/insurance-types.html#health-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Health insurance",
+    "text": "Health insurance\nPrivate health insurance can help pay hospital and medical costs not covered by Medicare. There are three main types. Ambulance cover pays for emergency ambulance transport. Hospital cover helps with some of the costs of staying in hospital. Extras cover pays for out-of-hospital treatment such as physiotherapy, optical and dental (Moneysmart 2026c).\nUnlike home and car insurance, which are risk rated, private health insurance is community rated. Everyone pays the same price for a particular policy, an insurer cannot refuse to insure you or sell you the policy you want, and you are guaranteed the right to renew (Department of Health, Disability and Ageing 2026).\nMost policies have waiting periods before you can claim. Premiums change each year on 1 April, and the average increase in 2026 was 4.41%. People who take out hospital cover after the age of 30 pay a Lifetime Health Cover loading of 2% for every year they were not insured. People without private health insurance who earn above a threshold may pay the Medicare levy surcharge of up to 1.5% of taxable income (Moneysmart 2026c)."
+  },
+  {
+    "objectID": "explainers/insurance-types.html#travel-insurance",
+    "href": "explainers/insurance-types.html#travel-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Travel insurance",
+    "text": "Travel insurance\nMost travel insurance policies cover medical costs, cancellations and delays, lost or stolen baggage, and car hire. Exclusions often apply to high-risk activities, illness or injury from pre-existing medical conditions, travel to areas with an official travel warning, and pandemics. If the government’s smartraveller advice for a destination is “do not travel”, a policy usually will not cover you. Some credit cards include travel insurance, which may cover only the cardholder and only trips paid for on the card (Moneysmart 2026h)."
+  },
+  {
+    "objectID": "explainers/insurance-types.html#pet-insurance",
+    "href": "explainers/insurance-types.html#pet-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Pet insurance",
+    "text": "Pet insurance\nPet insurance can be accident-only, accident and illness, or comprehensive, which also covers some routine care such as vaccinations. Most insurers do not cover pre-existing conditions, most policies have waiting periods, and policies can have annual limits on benefits. Most insurers require you to pay the vet in full and then make a claim (Moneysmart 2026g)."
+  },
+  {
+    "objectID": "explainers/insurance-types.html#landlord-insurance",
+    "href": "explainers/insurance-types.html#landlord-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Landlord insurance",
+    "text": "Landlord insurance\nInsuring the building of a rental property is the landlord’s responsibility, while tenants insure their own belongings (Moneysmart 2026b). What landlord policies cover varies, so the product disclosure statement is the main guide."
+  },
+  {
+    "objectID": "explainers/insurance-types.html#business-insurance",
+    "href": "explainers/insurance-types.html#business-insurance",
+    "title": "What types of insurance do households buy?",
+    "section": "Business insurance",
+    "text": "Business insurance\nBusinesses may need some insurance by law, and other types are a choice. Employers must get workers compensation insurance from an authorised insurer, and the rules vary by state and territory. Other common types include public liability insurance, which covers injury or property damage caused by the business’s negligence, building and contents insurance, business interruption insurance, which pays ongoing costs if an insured event such as a fire interrupts the business, and cyber insurance (business.gov.au 2026)."
   },
   {
     "objectID": "explainers/insurance-types.html#other-types",
     "href": "explainers/insurance-types.html#other-types",
     "title": "What types of insurance do households buy?",
     "section": "Other types",
-    "text": "Other types\nMoneysmart also covers travel, pet, mobile phone and funeral insurance (Moneysmart 2026d). Its insurance guides explain how to choose and compare each type."
+    "text": "Other types\nMoneysmart also covers mobile phone and funeral insurance (Moneysmart 2026f). Its insurance guides explain how to choose and compare each type."
   },
   {
     "objectID": "explainers/insurance-types.html#what-this-site-covers",
     "href": "explainers/insurance-types.html#what-this-site-covers",
     "title": "What types of insurance do households buy?",
     "section": "What this site covers",
-    "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is in the Health group of the CPI, not in insurance (ABS 2025). The figures and explainers on this site therefore focus on home and car insurance.\n\nLast reviewed 4 November 2026."
+    "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is in the Health group of the CPI, not in insurance (ABS 2025). The figures and explainers on this site therefore focus on home and car insurance. The other types on this page are introduced briefly, with links to official guidance.\n\nLast reviewed 6 November 2026."
   },
   {
     "objectID": "explainers/premiums-increasing.html",
