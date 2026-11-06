@@ -39,7 +39,7 @@
     "href": "key-figures.html#definitions",
     "title": "Insurance Explained",
     "section": "Definitions",
-    "text": "Definitions\nInsurance (CPI). The ABS price index for comparable home building, home contents, motor vehicle and compulsory third party (CTP) insurance policies. It measures price change, not what households spend in total. It does not include health insurance, which the ABS classifies in the Health group.\nInsurance and financial services (CPI group). A broader group that also includes deposit and loan fees and other financial services. It is not the same as insurance.\nGross written premiums (APRA). Total premium revenue written by insurers. It grows with the number of policies and the value insured, as well as with prices, so it is not a measure of price inflation.\nAffordability stress (Actuaries Institute). A home insurance premium above four weeks of gross household income.\nUnderinsurance. Cover that would not pay the full cost of rebuilding or replacing what is insured. Different from affordability stress and from having no insurance."
+    "text": "Definitions\nInsurance (CPI). The ABS price index for comparable home building, home contents, motor vehicle and compulsory third party (CTP) insurance policies. It measures how prices change for the same kinds of cover. It does not include health insurance, which the ABS classifies in the Health group.\nInsurance and financial services (CPI group). A broader group that also includes deposit and loan fees and other financial services.\nGross written premiums (APRA). Total premium revenue written by insurers. It grows with the number of policies and the value insured, as well as with prices, so it does not measure price change on its own.\nAffordability stress (Actuaries Institute). A home insurance premium above four weeks of gross household income.\nUnderinsurance. Cover that would not pay the full cost of rebuilding or replacing what is insured. Different from affordability stress and from having no insurance."
   },
   {
     "objectID": "explainers/who-regulates-insurance.html",
@@ -256,7 +256,7 @@
     "href": "explainers/insurance-types.html#what-this-site-covers",
     "title": "What types of insurance do households buy?",
     "section": "What this site covers",
-    "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is in the Health group of the CPI, not in insurance14. The figures and explainers on this site therefore focus on home and car insurance. The other types on this page are introduced briefly, with links to official guidance.\n\nLast reviewed 6 November 2026."
+    "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is counted in the Health group of the CPI14. The figures and explainers on this site therefore focus on home and car insurance. The other types on this page are introduced briefly, with links to official guidance.\n\nLast reviewed 6 November 2026."
   },
   {
     "objectID": "explainers/data-and-fairness.html",
@@ -424,7 +424,7 @@
     "href": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
     "title": "How does insurance contribute to inflation?",
     "section": "How the CPI measures insurance",
-    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The index measures price change, not what households spend in total, and the ABS does not publish separate indexes for home and car insurance1.\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims, rather than by the gross premiums households pay. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates1."
+    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The ABS does not publish separate indexes for home and car insurance1.\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates1."
   },
   {
     "objectID": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
@@ -445,7 +445,7 @@
     "href": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
     "title": "How does insurance contribute to inflation?",
     "section": "The Selected Living Cost Indexes",
-    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay, rather than the net value used in the CPI3."
+    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay3. The CPI uses premiums less claims."
   },
   {
     "objectID": "explainers/insurance-and-inflation.html#taxes-on-premiums",
