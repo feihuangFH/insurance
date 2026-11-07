@@ -170,7 +170,7 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
   <ul>
   <li><a href="#how-insurers-price-natural-hazard-risk" id="toc-how-insurers-price-natural-hazard-risk" class="nav-link active" data-scroll-target="#how-insurers-price-natural-hazard-risk">How insurers price natural hazard risk</a>
   <ul class="collapse">
-  <li><a href="#estimating-the-loss-at-each-property" id="toc-estimating-the-loss-at-each-property" class="nav-link" data-scroll-target="#estimating-the-loss-at-each-property">Estimating the loss at each property</a></li>
+  <li><a href="#catastrophe-models" id="toc-catastrophe-models" class="nav-link" data-scroll-target="#catastrophe-models">Catastrophe models</a></li>
   <li><a href="#from-estimated-losses-to-a-premium" id="toc-from-estimated-losses-to-a-premium" class="nav-link" data-scroll-target="#from-estimated-losses-to-a-premium">From estimated losses to a premium</a></li>
   </ul></li>
   <li><a href="#premiums-in-high-risk-areas" id="toc-premiums-in-high-risk-areas" class="nav-link" data-scroll-target="#premiums-in-high-risk-areas">Premiums in high-risk areas</a></li>
@@ -226,10 +226,10 @@ Exposure
 Vulnerability
 </li>
 <li>
-Estimated losses
+Financial
 </li>
 <li class="flow-portfolio">
-Portfolio, reinsurance and capital costs
+Reinsurance, capital and other costs
 </li>
 <li>
 Premium
@@ -237,19 +237,19 @@ Premium
 </ol>
 </div>
 <p>Insurers split expected claims into working claims, such as theft, glass and water damage, and natural peril claims. They generally model each peril separately, estimating how often claims occur and how much each one costs. The models for natural perils are generally developed by industry specialists or reinsurers and supplemented with insurers’ own claims data<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, p. 62</a></sup></span>.</p>
-<section id="estimating-the-loss-at-each-property" class="level3">
-<h3 class="anchored" data-anchor-id="estimating-the-loss-at-each-property">Estimating the loss at each property</h3>
-<p>Risk Frontiers, a natural hazard risk modelling firm, describes its catastrophe loss models as built from three modules<span class="citation" data-cites="riskfrontiers2026"><sup><a href="#ref-riskfrontiers2026" role="doc-biblioref">2</a></sup></span>:</p>
+<section id="catastrophe-models" class="level3">
+<h3 class="anchored" data-anchor-id="catastrophe-models">Catastrophe models</h3>
+<p>The National Association of Insurance Commissioners, the body of US state insurance regulators, describes catastrophe models as having four modules<span class="citation" data-cites="naiccat"><sup><a href="#ref-naiccat" role="doc-biblioref">2</a></sup></span>:</p>
 <ul>
-<li><strong>Hazard.</strong> How intense an event such as a flood, bushfire, cyclone or storm would be at each location.</li>
-<li><strong>Exposure.</strong> Where the buildings and other assets at risk are, and what they are.</li>
-<li><strong>Vulnerability.</strong> How much damage and financial loss a given event would cause to that type of property.</li>
+<li><strong>Hazard.</strong> A large catalogue of simulated events, such as floods, bushfires, cyclones and storms, and how intense each would be at each location.</li>
+<li><strong>Exposure.</strong> The properties the insurer covers, where they are and what they are like, along with the policy terms.</li>
+<li><strong>Vulnerability.</strong> The damage an event would cause to each property, based on its characteristics and the intensity of the hazard there<span class="citation" data-cites="naiccat"><sup><a href="#ref-naiccat" role="doc-biblioref">2</a></sup></span>. The ACCC found that at least two insurers had adjusted their flood models to better take account of building height, or number of storeys<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, p. 62</a></sup></span>.</li>
+<li><strong>Financial.</strong> The model turns the damage into the insurer’s loss by applying the policy terms, such as the excess, sum insured and limits, and then any reinsurance. It adds these losses up across all the simulated events to show how large the insurer’s losses could be in a year<span class="citation" data-cites="naiccat"><sup><a href="#ref-naiccat" role="doc-biblioref">2</a></sup></span>.</li>
 </ul>
-<p>Insurers’ claims cost models take account of features of the home such as its location, wall and roof construction, number of storeys, year of construction and whether it is on stilts. The cover chosen also matters. The sum insured and the excess are among the factors used<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, pp. 62-63</a></sup></span>.</p>
 </section>
 <section id="from-estimated-losses-to-a-premium" class="level3">
 <h3 class="anchored" data-anchor-id="from-estimated-losses-to-a-premium">From estimated losses to a premium</h3>
-<p>The remaining steps work across the insurer’s whole portfolio of policies. They depend on the insurer’s own costs and decisions, and are separate from the risk characteristics of any one property.</p>
+<p>The model’s output is an estimate of the insurer’s losses. Turning it into a premium depends on the insurer’s own costs and decisions, which are separate from the risk characteristics of any one property.</p>
 <ul>
 <li><strong>Expected claims cost.</strong> Some insurers estimate the average annual loss for a peril across their portfolio and allocate it to policies by relative risk. Others build up the expected cost policy by policy<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, p. 62</a></sup></span>.</li>
 <li><strong>Reinsurance.</strong> Insurers generally buy reinsurance at a whole-of-portfolio level, typically to protect against large natural peril events<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, p. 100</a></sup></span>. Its cost is part of the premium<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, pp. 60-61</a></sup></span>.</li>
@@ -294,8 +294,8 @@ Premium
 <div id="ref-accc2020" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">ACCC. <em><span class="nocase">Northern Australia Insurance Inquiry: Final report</span></em>. <span>Australian Competition and Consumer Commission</span>; 2020. <a href="https://www.accc.gov.au/about-us/publications/northern-australia-insurance-inquiry-final-report">https://www.accc.gov.au/about-us/publications/northern-australia-insurance-inquiry-final-report</a></div>
 </div>
-<div id="ref-riskfrontiers2026" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Risk Frontiers. <span class="nocase">Using catastrophe loss models to improve decision making in disaster management</span>. Published online September 2026. <a href="https://riskfrontiers.com/?p=4047">https://riskfrontiers.com/?p=4047</a></div>
+<div id="ref-naiccat" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">National Association of Insurance Commissioners. <span>Catastrophe Models (Property)</span>. Published online 2025. <a href="https://content.naic.org/insurance-topics/catastrophe-models-property">https://content.naic.org/insurance-topics/catastrophe-models-property</a></div>
 </div>
 <div id="ref-accc2026" class="csl-entry" role="listitem">
 <div class="csl-left-margin">3. </div><div class="csl-right-inline">ACCC. <span class="nocase">Cyclone reinsurance pool reduces premiums in high-risk areas but affordability pressures persist</span>. Published online June 2026. <a href="https://www.accc.gov.au/media-release/cyclone-reinsurance-pool-reduces-premiums-in-high-risk-areas-but-affordability-pressures-persist">https://www.accc.gov.au/media-release/cyclone-reinsurance-pool-reduces-premiums-in-high-risk-areas-but-affordability-pressures-persist</a></div>
