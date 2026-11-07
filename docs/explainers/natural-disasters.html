@@ -63,7 +63,7 @@ div.csl-indent {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f429c02dccd256a953a4c6149fac8625.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-342b5c8c46dc80162fdb6ac3e986359b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -215,7 +215,9 @@ gtag('config', 'G-F11HECZVN7', { 'anonymize_ip': true});
 <section id="how-insurers-price-natural-hazard-risk" class="level2">
 <h2 class="anchored" data-anchor-id="how-insurers-price-natural-hazard-risk">How insurers price natural hazard risk</h2>
 <div class="flow">
-<ol aria-label="From natural hazard to premium">
+<div class="flow-group flow-model">
+<span class="flow-label">Catastrophe model</span>
+<ol aria-label="Catastrophe model steps">
 <li>
 Hazard
 </li>
@@ -228,13 +230,19 @@ Vulnerability
 <li>
 Financial
 </li>
-<li class="flow-portfolio">
+</ol>
+</div>
+<div class="flow-group flow-pricing">
+<span class="flow-label">Pricing</span>
+<ol aria-label="Pricing steps">
+<li>
 Reinsurance, capital and other costs
 </li>
 <li>
 Premium
 </li>
 </ol>
+</div>
 </div>
 <p>Insurers split expected claims into working claims, such as theft, glass and water damage, and natural peril claims. They generally model each peril separately, estimating how often claims occur and how much each one costs. The models for natural perils are generally developed by industry specialists or reinsurers and supplemented with insurers’ own claims data<span class="citation" data-cites="accc2020"><sup><a href="#ref-accc2020" role="doc-biblioref">1, p. 62</a></sup></span>.</p>
 <section id="catastrophe-models" class="level3">
