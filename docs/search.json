@@ -641,7 +641,7 @@
     "href": "index.html#why-are-insurance-premiums-increasing",
     "title": "Insurance Explained",
     "section": "Why are insurance premiums increasing?",
-    "text": "Why are insurance premiums increasing?\nActuaries start from the expected cost of claims and add the costs of running the business and holding capital. The market price can then move away from this technical price."
+    "text": "Why are insurance premiums increasing?\nActuaries start from the expected cost of claims and add the costs of reinsurance, running the business and holding capital. This gives the technical premium. Insurers then adjust it and add taxes to set the price the customer pays."
   },
   {
     "objectID": "index.html#common-questions",
