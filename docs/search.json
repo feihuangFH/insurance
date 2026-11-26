@@ -259,46 +259,109 @@
     "text": "What this site covers\nThe ABS insurance price index covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party insurance. Health insurance is counted in the Health group of the CPI14. The figures and explainers on this site therefore focus on home and car insurance. The other types on this page are introduced briefly, with links to official guidance.\n\nLast reviewed 6 November 2026."
   },
   {
-    "objectID": "explainers/data-and-fairness.html",
-    "href": "explainers/data-and-fairness.html",
-    "title": "How do insurers use data, and when can it be unfair?",
+    "objectID": "explainers/insurance-and-inflation.html",
+    "href": "explainers/insurance-and-inflation.html",
+    "title": "How does insurance contribute to inflation?",
     "section": "",
-    "text": "This page gives general information. It is not legal advice and does not take your circumstances into account."
+    "text": "Short answer\nInsurance makes up 1.36% of the Consumer Price Index basket. In the year to September 2026, insurance prices rose 5.4% and added 0.07 percentage points to the 4.3% rise in the CPI."
   },
   {
-    "objectID": "explainers/data-and-fairness.html#what-insurers-use",
-    "href": "explainers/data-and-fairness.html#what-insurers-use",
-    "title": "How do insurers use data, and when can it be unfair?",
-    "section": "What insurers use",
-    "text": "What insurers use\nInformation from customers. When buying consumer insurance, a customer has a duty to take reasonable care not to make a misrepresentation to the insurer before the contract is entered into1.\nProperty and location data. The ACCC found that better access to data, and more sophisticated analysis of it, has enabled insurers to price risk at an individual address level, not at a postcode or regional level2, p. ix. Insurers model each natural peril separately, supplementing external models with their own claims data2, p. 62.\nPublic data. Most insurers model flood costs using the National Flood Information Database, an industry-funded database that combines government flood mapping into estimates of flood depth at each address2, p. 68.\nThird-party data. Insurers also use data and models from outside providers. Natural hazard models are often built by specialists or reinsurers2, p. 62. Some insurers use a third-party provider’s information to estimate a home’s rebuilding cost, or base increases in the sum insured on a third-party provider’s building cost indices2, p. 32.\nThe ACCC’s 2024 report on data brokers notes that insurers use a wide range of data, including customer data, property data and statistics, to make decisions about premiums and coverage3, p. 43. Data firms sell insurers products that check applications against claims history, help assess risk and identify fraudulent claims3, p. 64. They also sell property valuation products that help set the level of cover3, p. 69. CoreLogic, a large property data firm, counts insurance providers among its customers3, p. 78.\nCustomer behaviour. Pricing that takes account of how likely a customer is to shop around is known as price optimisation2, p. 233. The ACCC noted that insurers are entitled to set their own premiums, including through premium adjustments2, p. 252."
+    "objectID": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
+    "href": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
+    "title": "How does insurance contribute to inflation?",
+    "section": "How the CPI measures insurance",
+    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The ABS does not publish separate indexes for home and car insurance1.\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates1."
   },
   {
-    "objectID": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
-    "href": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
-    "title": "How do insurers use data, and when can it be unfair?",
-    "section": "What anti-discrimination law allows",
-    "text": "What anti-discrimination law allows\nFederal anti-discrimination law covers insurance. The Age, Disability and Sex Discrimination Acts each include an exemption for insurance:\n\nAge (section 37) and disability (section 46). Discrimination in the terms of a policy, or in refusing to offer one, is not unlawful if it is based on actuarial or statistical data on which it is reasonable to rely, and is reasonable having regard to the data and other relevant factors. Where no such data is available and cannot reasonably be obtained, the discrimination must be reasonable having regard to other relevant factors4; 5.\nSex (section 41). Discrimination in the terms on which a policy is offered is not unlawful if it is based on actuarial or statistical data from a source on which it is reasonable to rely, and is reasonable having regard to the data. A customer can ask the insurer in writing for access to the data6.\n\nThe Guidance Resource: AI and Discrimination in Insurance, published in 2022 by the Australian Human Rights Commission and the Actuaries Institute, says insurers should make an objective judgment about the nature and quality of the data. It may not be reasonable to rely on data that is out of date, qualified, incomplete, discredited, based on too small a sample, or not directly applicable to the situation. Data that may be reasonable to rely on includes complete and up-to-date underwriting manuals, local data such as government studies, census statistics and insurance studies from a reliable source, and international studies where local data is insufficient or the international data still applies in Australia. Insurers should keep records of the data they rely on, and may have to disclose its source if a discrimination complaint is made7.\nThe Racial Discrimination Act has no such exemption7. Insurers also have obligations under state and territory anti-discrimination laws7."
+    "objectID": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
+    "href": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
+    "title": "How does insurance contribute to inflation?",
+    "section": "How much insurance adds to inflation",
+    "text": "How much insurance adds to inflation\nAt the December quarter 2024 reweighting, insurance accounted for 1.36% of the all-groups CPI. In the year to September 2026, it contributed 0.07 percentage points of the 4.3% annual rise. The ABS calculates and publishes this contribution figure2."
   },
   {
-    "objectID": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
-    "href": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
-    "title": "How do insurers use data, and when can it be unfair?",
-    "section": "When data-driven pricing can be unfair",
-    "text": "When data-driven pricing can be unfair\nDiscrimination can be direct or indirect. Indirect discrimination occurs when a requirement that applies to everyone disadvantages people with a protected attribute, and the requirement is not reasonable in the circumstances7.\nRemoving a protected attribute, such as race, from the data may not be enough. In a rich or detailed dataset, other information can act as a proxy for that attribute. The guidance resource advises insurers to test their models to check whether they actually avoid discriminatory outcomes7."
+    "objectID": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
+    "href": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
+    "title": "How does insurance contribute to inflation?",
+    "section": "Insurance, and insurance and financial services",
+    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents, motor vehicle and compulsory third party insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
   },
   {
-    "objectID": "explainers/data-and-fairness.html#transparency",
-    "href": "explainers/data-and-fairness.html#transparency",
-    "title": "How do insurers use data, and when can it be unfair?",
-    "section": "Transparency",
-    "text": "Transparency\nThe ACCC found that consumers are unlikely to have meaningful control over their data when they have to provide personal information to get insurance quotes3, p. 3.\nASIC found that no insurer in its review of car insurance explained the key factors behind a premium in quote and renewal documents8. In the 2026–27 Budget, the Government funded Treasury to develop and consult on options to make the basis of home and contents premiums clearer9."
+    "objectID": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
+    "href": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
+    "title": "How does insurance contribute to inflation?",
+    "section": "The Selected Living Cost Indexes",
+    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay3. The CPI uses premiums less claims."
   },
   {
-    "objectID": "explainers/data-and-fairness.html#further-reading",
-    "href": "explainers/data-and-fairness.html#further-reading",
-    "title": "How do insurers use data, and when can it be unfair?",
-    "section": "Further reading",
-    "text": "Further reading\n\nFei Huang, Insurers have a lot of data about us. Where do they get it, and how do they use it?, The Conversation, 24 August 2026.\nAustralian Human Rights Commission and Actuaries Institute, Guidance resource: AI and discrimination in insurance, December 2022.\n\n\nLast reviewed 5 November 2026."
+    "objectID": "explainers/insurance-and-inflation.html#taxes-on-premiums",
+    "href": "explainers/insurance-and-inflation.html#taxes-on-premiums",
+    "title": "How does insurance contribute to inflation?",
+    "section": "Taxes on premiums",
+    "text": "Taxes on premiums\nWhen the GST was introduced in 2000, the CPI insurance index rose about 30% in a year. The premiums households paid rose much less. At the time, the CPI valued insurance at premiums less claims, which is much smaller than the premium. The GST was charged on the full premium, so the extra tax was a far larger share of the CPI’s value than of the premium. In an ABS example, a rise in tax from 5% to 15% lifted the premium by 9.5% but the CPI’s value by 22.2%4.\n\nLast reviewed 5 November 2026."
+  },
+  {
+    "objectID": "explainers/annuities.html",
+    "href": "explainers/annuities.html",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "",
+    "text": "This page gives general information. It is not financial product advice and does not take your circumstances into account."
+  },
+  {
+    "objectID": "explainers/annuities.html#outliving-your-savings",
+    "href": "explainers/annuities.html#outliving-your-savings",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "Outliving your savings",
+    "text": "Outliving your savings\nNobody knows how long they will live. A lifetime income stream pays regular income for as long as you live, which can give peace of mind that you won’t outlive your savings1.\nThe Australian Longevity Calculator estimates how long Australians are expected to live, based on characteristics such as age, sex, income and location."
+  },
+  {
+    "objectID": "explainers/annuities.html#where-they-are-offered",
+    "href": "explainers/annuities.html#where-they-are-offered",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "Where they are offered",
+    "text": "Where they are offered\nSuper funds. Industry, retail, public sector and corporate super funds are each managed by a trustee, who looks after members’ money in the fund2. A lifetime income stream bought from a super fund may be called a lifetime pension1. Not every fund offers one. In a 2023 review of 15 trustees, APRA and ASIC found that seven provided access to products with longevity protection, such as lifetime annuities. Some of these products were offered by the fund, with the lifetime component provided by a life insurer3, p. 18.\nLife insurers and friendly societies. A lifetime income stream bought from a life insurance company or friendly society is called a lifetime annuity1. It can be bought with super or other savings4.\nSelf-managed super funds. In a self-managed super fund (SMSF), the members are generally the trustees. SMSF members cannot lodge complaints against the fund with the Australian Financial Complaints Authority (AFCA). If the fund loses money through theft or fraud, they do not have access to the government compensation that applies to industry and retail funds5."
+  },
+  {
+    "objectID": "explainers/annuities.html#how-annuities-work",
+    "href": "explainers/annuities.html#how-annuities-work",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "How annuities work",
+    "text": "How annuities work\nAn annuity can be bought with super or other savings. If you use super, you generally need to meet the rules for accessing it first, such as reaching preservation age and retiring. When you buy an annuity, you choose whether payments last for a fixed number of years or for the rest of your life4.\nWhat affects the income. With a conventional annuity, the payment is set when you buy it. It depends on how much you use to buy the annuity, how long it is invested for and how often you choose to be paid. Payments can increase each year by a fixed percentage or be indexed to inflation. With an investment-linked annuity, the length of payments is guaranteed but the amount rises or falls with the chosen investment option4.\nWhen you die. Payments usually stop, unless you nominated a reversionary beneficiary or chose a guaranteed period when you bought the annuity. A reversionary beneficiary, usually a partner or dependant, receives payments for the rest of their life, usually at a reduced level such as 60%. With a guaranteed period, your beneficiary receives the payments if you die within that period4."
+  },
+  {
+    "objectID": "explainers/annuities.html#trade-offs",
+    "href": "explainers/annuities.html#trade-offs",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "Trade-offs",
+    "text": "Trade-offs\nMoneysmart lists these among the potential advantages and disadvantages4.\n\n\n\n\n\n\n\nPotential advantages\nPotential disadvantages\n\n\n\n\nIncome for a set period or for life. A lifetime annuity keeps paying however long you live.\nThe lump sum is no longer yours to invest or spend.\n\n\nWith a conventional annuity, income is guaranteed and does not depend on markets.\nIncome may be less than you could earn by investing the money yourself, especially when interest rates are low.\n\n\nPayments that rise over time can help keep pace with living costs.\nTerms are fixed after the cooling-off period, and the money usually cannot be withdrawn.\n\n\nA lifetime annuity can increase Age Pension entitlements, because of how the income and assets tests treat it.\nPayments that do not rise over time lose value to inflation."
+  },
+  {
+    "objectID": "explainers/annuities.html#who-regulates",
+    "href": "explainers/annuities.html#who-regulates",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "Who regulates",
+    "text": "Who regulates\nAPRA supervises life insurers, friendly societies and a large part of the superannuation industry6. For super funds, APRA is primarily responsible for making sure trustees prudently manage their business operations. ASIC is primarily responsible for how trustees deal with members, including disclosure and advice. ASIC also regulates life insurers as financial services organisations7. The ATO regulates all self-managed super funds5.\nSince 1 July 2022, the trustees of APRA-regulated super funds have been required to have a retirement income strategy for their members, under the Superannuation Industry (Supervision) Act 19938. In November 2025, APRA and ASIC reported that 36% of these trustees planned to review their longevity products, or introduce a new one, by 30 June 20269, p. 14."
+  },
+  {
+    "objectID": "explainers/annuities.html#where-to-get-help",
+    "href": "explainers/annuities.html#where-to-get-help",
+    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "section": "Where to get help",
+    "text": "Where to get help\nAn annuity forms part of the income and assets tests for the Age Pension. A Services Australia Financial Information Service officer can help work out how an annuity would affect Age Pension entitlements. A licensed financial adviser or your super fund can help with personal decisions4. Moneysmart’s guides to annuities and lifetime income streams explain the options in more detail. Its guide to how super works covers super funds, including SMSFs.\n\nLast reviewed 7 November 2026."
+  },
+  {
+    "objectID": "commentary.html#articles",
+    "href": "commentary.html#articles",
+    "title": "Insurance Explained",
+    "section": "Articles",
+    "text": "Articles"
+  },
+  {
+    "objectID": "commentary.html#featured-in",
+    "href": "commentary.html#featured-in",
+    "title": "Insurance Explained",
+    "section": "Featured in",
+    "text": "Featured in"
   },
   {
     "objectID": "about.html#why-this-site-exists",
@@ -357,109 +420,95 @@
     "text": "Contact\nFei Huang\nEmail: feihuang@unsw.edu.au\nWebsite: www.feihuang.org"
   },
   {
-    "objectID": "commentary.html#articles",
-    "href": "commentary.html#articles",
-    "title": "Insurance Explained",
-    "section": "Articles",
-    "text": "Articles"
-  },
-  {
-    "objectID": "commentary.html#featured-in",
-    "href": "commentary.html#featured-in",
-    "title": "Insurance Explained",
-    "section": "Featured in",
-    "text": "Featured in"
-  },
-  {
-    "objectID": "explainers/annuities.html",
-    "href": "explainers/annuities.html",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
+    "objectID": "explainers/data-and-fairness.html",
+    "href": "explainers/data-and-fairness.html",
+    "title": "How do insurers use data, and when can it be unfair?",
     "section": "",
-    "text": "This page gives general information. It is not financial product advice and does not take your circumstances into account."
+    "text": "This page gives general information. It is not legal advice and does not take your circumstances into account."
   },
   {
-    "objectID": "explainers/annuities.html#outliving-your-savings",
-    "href": "explainers/annuities.html#outliving-your-savings",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "Outliving your savings",
-    "text": "Outliving your savings\nNobody knows how long they will live. A lifetime income stream pays regular income for as long as you live, which can give peace of mind that you won’t outlive your savings1.\nThe Australian Longevity Calculator estimates how long Australians are expected to live, based on characteristics such as age, sex, income and location."
+    "objectID": "explainers/data-and-fairness.html#what-insurers-use",
+    "href": "explainers/data-and-fairness.html#what-insurers-use",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "What insurers use",
+    "text": "What insurers use\nInformation from customers. When buying consumer insurance, a customer has a duty to take reasonable care not to make a misrepresentation to the insurer before the contract is entered into1.\nProperty and location data. The ACCC found that better access to data, and more sophisticated analysis of it, has enabled insurers to price risk at an individual address level, not at a postcode or regional level2, p. ix. Insurers model each natural peril separately, supplementing external models with their own claims data2, p. 62.\nPublic data. Most insurers model flood costs using the National Flood Information Database, an industry-funded database that combines government flood mapping into estimates of flood depth at each address2, p. 68.\nThird-party data. Insurers also use data and models from outside providers. Natural hazard models are often built by specialists or reinsurers2, p. 62. Some insurers use a third-party provider’s information to estimate a home’s rebuilding cost, or base increases in the sum insured on a third-party provider’s building cost indices2, p. 32.\nThe ACCC’s 2024 report on data brokers notes that insurers use a wide range of data, including customer data, property data and statistics, to make decisions about premiums and coverage3, p. 43. Data firms sell insurers products that check applications against claims history, help assess risk and identify fraudulent claims3, p. 64. They also sell property valuation products that help set the level of cover3, p. 69. CoreLogic, a large property data firm, counts insurance providers among its customers3, p. 78.\nCustomer behaviour. Pricing that takes account of how likely a customer is to shop around is known as price optimisation2, p. 233. The ACCC noted that insurers are entitled to set their own premiums, including through premium adjustments2, p. 252."
   },
   {
-    "objectID": "explainers/annuities.html#where-they-are-offered",
-    "href": "explainers/annuities.html#where-they-are-offered",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "Where they are offered",
-    "text": "Where they are offered\nSuper funds. Industry, retail, public sector and corporate super funds are each managed by a trustee, who looks after members’ money in the fund2. A lifetime income stream bought from a super fund may be called a lifetime pension1. Not every fund offers one. In a 2023 review of 15 trustees, APRA and ASIC found that seven provided access to products with longevity protection, such as lifetime annuities. Some of these products were offered by the fund, with the lifetime component provided by a life insurer3, p. 18.\nLife insurers and friendly societies. A lifetime income stream bought from a life insurance company or friendly society is called a lifetime annuity1. It can be bought with super or other savings4.\nSelf-managed super funds. In a self-managed super fund (SMSF), the members are generally the trustees. SMSF members cannot lodge complaints against the fund with the Australian Financial Complaints Authority (AFCA). If the fund loses money through theft or fraud, they do not have access to the government compensation that applies to industry and retail funds5."
+    "objectID": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
+    "href": "explainers/data-and-fairness.html#what-anti-discrimination-law-allows",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "What anti-discrimination law allows",
+    "text": "What anti-discrimination law allows\nFederal anti-discrimination law covers insurance. The Age, Disability and Sex Discrimination Acts each include an exemption for insurance:\n\nAge (section 37) and disability (section 46). Discrimination in the terms of a policy, or in refusing to offer one, is not unlawful if it is based on actuarial or statistical data on which it is reasonable to rely, and is reasonable having regard to the data and other relevant factors. Where no such data is available and cannot reasonably be obtained, the discrimination must be reasonable having regard to other relevant factors4; 5.\nSex (section 41). Discrimination in the terms on which a policy is offered is not unlawful if it is based on actuarial or statistical data from a source on which it is reasonable to rely, and is reasonable having regard to the data. A customer can ask the insurer in writing for access to the data6.\n\nThe Guidance Resource: AI and Discrimination in Insurance, published in 2022 by the Australian Human Rights Commission and the Actuaries Institute, says insurers should make an objective judgment about the nature and quality of the data. It may not be reasonable to rely on data that is out of date, qualified, incomplete, discredited, based on too small a sample, or not directly applicable to the situation. Data that may be reasonable to rely on includes complete and up-to-date underwriting manuals, local data such as government studies, census statistics and insurance studies from a reliable source, and international studies where local data is insufficient or the international data still applies in Australia. Insurers should keep records of the data they rely on, and may have to disclose its source if a discrimination complaint is made7.\nThe Racial Discrimination Act has no such exemption7. Insurers also have obligations under state and territory anti-discrimination laws7."
   },
   {
-    "objectID": "explainers/annuities.html#how-annuities-work",
-    "href": "explainers/annuities.html#how-annuities-work",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "How annuities work",
-    "text": "How annuities work\nAn annuity can be bought with super or other savings. If you use super, you generally need to meet the rules for accessing it first, such as reaching preservation age and retiring. When you buy an annuity, you choose whether payments last for a fixed number of years or for the rest of your life4.\nWhat affects the income. With a conventional annuity, the payment is set when you buy it. It depends on how much you use to buy the annuity, how long it is invested for and how often you choose to be paid. Payments can increase each year by a fixed percentage or be indexed to inflation. With an investment-linked annuity, the length of payments is guaranteed but the amount rises or falls with the chosen investment option4.\nWhen you die. Payments usually stop, unless you nominated a reversionary beneficiary or chose a guaranteed period when you bought the annuity. A reversionary beneficiary, usually a partner or dependant, receives payments for the rest of their life, usually at a reduced level such as 60%. With a guaranteed period, your beneficiary receives the payments if you die within that period4."
+    "objectID": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
+    "href": "explainers/data-and-fairness.html#when-data-driven-pricing-can-be-unfair",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "When data-driven pricing can be unfair",
+    "text": "When data-driven pricing can be unfair\nDiscrimination can be direct or indirect. Indirect discrimination occurs when a requirement that applies to everyone disadvantages people with a protected attribute, and the requirement is not reasonable in the circumstances7.\nRemoving a protected attribute, such as race, from the data may not be enough. In a rich or detailed dataset, other information can act as a proxy for that attribute. The guidance resource advises insurers to test their models to check whether they actually avoid discriminatory outcomes7."
   },
   {
-    "objectID": "explainers/annuities.html#trade-offs",
-    "href": "explainers/annuities.html#trade-offs",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "Trade-offs",
-    "text": "Trade-offs\nMoneysmart lists these among the potential advantages and disadvantages4.\n\n\n\n\n\n\n\nPotential advantages\nPotential disadvantages\n\n\n\n\nIncome for a set period or for life. A lifetime annuity keeps paying however long you live.\nThe lump sum is no longer yours to invest or spend.\n\n\nWith a conventional annuity, income is guaranteed and does not depend on markets.\nIncome may be less than you could earn by investing the money yourself, especially when interest rates are low.\n\n\nPayments that rise over time can help keep pace with living costs.\nTerms are fixed after the cooling-off period, and the money usually cannot be withdrawn.\n\n\nA lifetime annuity can increase Age Pension entitlements, because of how the income and assets tests treat it.\nPayments that do not rise over time lose value to inflation."
+    "objectID": "explainers/data-and-fairness.html#transparency",
+    "href": "explainers/data-and-fairness.html#transparency",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "Transparency",
+    "text": "Transparency\nThe ACCC found that consumers are unlikely to have meaningful control over their data when they have to provide personal information to get insurance quotes3, p. 3.\nASIC found that no insurer in its review of car insurance explained the key factors behind a premium in quote and renewal documents8. In the 2026–27 Budget, the Government funded Treasury to develop and consult on options to make the basis of home and contents premiums clearer9."
   },
   {
-    "objectID": "explainers/annuities.html#who-regulates",
-    "href": "explainers/annuities.html#who-regulates",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "Who regulates",
-    "text": "Who regulates\nAPRA supervises life insurers, friendly societies and a large part of the superannuation industry6. For super funds, APRA is primarily responsible for making sure trustees prudently manage their business operations. ASIC is primarily responsible for how trustees deal with members, including disclosure and advice. ASIC also regulates life insurers as financial services organisations7. The ATO regulates all self-managed super funds5.\nSince 1 July 2022, the trustees of APRA-regulated super funds have been required to have a retirement income strategy for their members, under the Superannuation Industry (Supervision) Act 19938. In November 2025, APRA and ASIC reported that 36% of these trustees planned to review their longevity products, or introduce a new one, by 30 June 20269, p. 14."
+    "objectID": "explainers/data-and-fairness.html#further-reading",
+    "href": "explainers/data-and-fairness.html#further-reading",
+    "title": "How do insurers use data, and when can it be unfair?",
+    "section": "Further reading",
+    "text": "Further reading\n\nFei Huang, Insurers have a lot of data about us. Where do they get it, and how do they use it?, The Conversation, 24 August 2026.\nAustralian Human Rights Commission and Actuaries Institute, Guidance resource: AI and discrimination in insurance, December 2022.\n\n\nLast reviewed 5 November 2026."
   },
   {
-    "objectID": "explainers/annuities.html#where-to-get-help",
-    "href": "explainers/annuities.html#where-to-get-help",
-    "title": "How can annuities and lifetime pensions protect against outliving your savings?",
-    "section": "Where to get help",
-    "text": "Where to get help\nAn annuity forms part of the income and assets tests for the Age Pension. A Services Australia Financial Information Service officer can help work out how an annuity would affect Age Pension entitlements. A licensed financial adviser or your super fund can help with personal decisions4. Moneysmart’s guides to annuities and lifetime income streams explain the options in more detail. Its guide to how super works covers super funds, including SMSFs.\n\nLast reviewed 7 November 2026."
-  },
-  {
-    "objectID": "explainers/insurance-and-inflation.html",
-    "href": "explainers/insurance-and-inflation.html",
-    "title": "How does insurance contribute to inflation?",
+    "objectID": "explainers/insurance-taxes.html",
+    "href": "explainers/insurance-taxes.html",
+    "title": "How much do taxes add to home insurance premiums?",
     "section": "",
-    "text": "Short answer\nInsurance makes up 1.36% of the Consumer Price Index basket. In the year to September 2026, insurance prices rose 5.4% and added 0.07 percentage points to the 4.3% rise in the CPI."
+    "text": "Short answer\nGST of 10% applies to home insurance across Australia. Every state and territory except the ACT also charges stamp duty of 9% to 11%, generally calculated on the premium including GST. In NSW, an Emergency Services Levy adds an average of 18% to residential premiums before GST and duty are charged. These taxes are a percentage of the premium, so the tax paid rises whenever the premium rises. The ACCC found that higher natural peril risk was the main reason insurers’ costs were higher in northern Australia."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
-    "href": "explainers/insurance-and-inflation.html#how-the-cpi-measures-insurance",
-    "title": "How does insurance contribute to inflation?",
-    "section": "How the CPI measures insurance",
-    "text": "How the CPI measures insurance\nThe CPI combines two pieces of information for each item: how much its price changed, and its weight in household spending.\nPrice. The insurance expenditure class covers comprehensive insurance for dwellings, home contents and motor vehicles, and compulsory third party motor vehicle insurance. Health insurance is classified in the Health group. The ABS measures price change using gross premiums, collected each month from web-scraped price quotes for a range of customer profiles. The ABS does not publish separate indexes for home and car insurance1.\nWeight. The CPI weights insurance by the cost of the service provided by insurers, which the ABS measures as gross premiums less claims. The ABS updates the weights once a year, using National Accounts data, and holds them fixed between updates1."
+    "objectID": "explainers/insurance-taxes.html#which-taxes-apply",
+    "href": "explainers/insurance-taxes.html#which-taxes-apply",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "Which taxes apply",
+    "text": "Which taxes apply\nGST. A flat 10% GST applies to all general insurance products across Australia1, p. 54.\nStamp duty. States and territories charge duty on insurance premiums. The duty is generally calculated on the premium including GST, so the two taxes compound1, p. 55.\n\n\n\n\n\n\n\n\nState or territory\nDuty on home insurance\nSource\n\n\n\n\nNew South Wales\n9%\nRevenue NSW2\n\n\nVictoria\n10%\nState Revenue Office Victoria3\n\n\nQueensland\n9%\nQueensland Revenue Office4\n\n\nWestern Australia\n10%\nDepartment of Finance5\n\n\nSouth Australia\n11%\nRevenueSA6\n\n\nTasmania\n10%\nState Revenue Office of Tasmania7\n\n\nNorthern Territory\n10% (as reported in 2020)\nACCC1, p. 54\n\n\nAustralian Capital Territory\nNone since 1 July 2016\nACT Revenue Office8\n\n\n\nEmergency services levies. NSW funds its fire and emergency services through a levy. Insurance companies pay 73.7% of it, local councils 11.7% and the NSW Government 14.6%. Insurers pass their share on to policies such as home, contents and car insurance9, p. 1. NSW Treasury estimates that the levy adds an average of 18% to residential premiums and 34% to non-residential premiums9, p. 5. The levy is added to the base premium, so it also increases the amount on which GST and stamp duty are charged9, p. 3.\nThe NSW Government states that all other mainland states fund emergency services through levies on property10. Victoria, for example, removed its fire services levy from insurance premiums on 1 July 2013 and moved it to council rates11."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
-    "href": "explainers/insurance-and-inflation.html#how-much-insurance-adds-to-inflation",
-    "title": "How does insurance contribute to inflation?",
-    "section": "How much insurance adds to inflation",
-    "text": "How much insurance adds to inflation\nAt the December quarter 2024 reweighting, insurance accounted for 1.36% of the all-groups CPI. In the year to September 2026, it contributed 0.07 percentage points of the 4.3% annual rise. The ABS calculates and publishes this contribution figure2."
+    "objectID": "explainers/insurance-taxes.html#how-the-taxes-add-up",
+    "href": "explainers/insurance-taxes.html#how-the-taxes-add-up",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "How the taxes add up",
+    "text": "How the taxes add up\nThe ACCC calculated the combined effect of GST and stamp duty in northern Australia in 2020.\n\n\n\n\n\n\n\n\n\nCombined tax rate\nTax as a share of the retail premium\n\n\n\n\nQueensland\n19.9%\n16.6%\n\n\nWestern Australia\n21%\n17.4%\n\n\nNorthern Territory\n21%\n17.4%\n\n\n\nThe combined tax rate is the amount added to the premium the insurer charges. The share of the retail premium is the part of the final price that goes in tax1, p. 55.\nIn 2018–19, customers in northern Australia paid an average of $413 in tax on a combined home and contents policy, made up of $207 in stamp duty and $206 in GST. In the rest of Australia, the average was $256, including levies1, p. 55."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
-    "href": "explainers/insurance-and-inflation.html#insurance-and-insurance-and-financial-services",
-    "title": "How does insurance contribute to inflation?",
-    "section": "Insurance, and insurance and financial services",
-    "text": "Insurance, and insurance and financial services\nThe ABS publishes two related series.\n\nCPI weights at the December quarter 2024 reweighting. Source: ABS.\n\n\n\n\n\n\n\n\nSeries\nWhat it covers\nWeight in CPI\nContribution, year to September 2026\n\n\n\n\nInsurance\nHome, contents, motor vehicle and compulsory third party insurance\n1.36%\n0.07 points\n\n\nInsurance and financial services\nInsurance plus deposit and loan fees and other financial services\n5.58%\n0.21 points"
+    "objectID": "explainers/insurance-taxes.html#what-the-insurance-council-says",
+    "href": "explainers/insurance-taxes.html#what-the-insurance-council-says",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "What the Insurance Council says",
+    "text": "What the Insurance Council says\nThe Insurance Council of Australia has published several figures on state insurance taxes.\n\n10 to 30%. Its 2025 fact pack calls for governments to “remove state taxes to immediately drop the price of insurance by 10 to 30%”. It reports that customers paid $8.6 billion in state taxes on insurance in 2023–2412.\n9 to 40%. Its February 2026 pre-budget submission states that state taxes and charges make up between 9% and 40% of insurance premiums, depending on the state. It reports that states and territories raised more than $8.9 billion from levies and duties on insurance premiums in 2024–2513, p. 9.\n20 to 40%. Its tax reform campaign page states that government taxes and charges “can add 20 to 40 per cent” to the cost of a premium, depending on the state or territory14.\n\nThe three figures are expressed differently. The first is a fall in price, the second a share of premiums and the third an addition to the cost of a premium. The publications do not set out how each range was calculated."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
-    "href": "explainers/insurance-and-inflation.html#the-selected-living-cost-indexes",
-    "title": "How does insurance contribute to inflation?",
-    "section": "The Selected Living Cost Indexes",
-    "text": "The Selected Living Cost Indexes\nThe ABS’s Selected Living Cost Indexes weight insurance by the gross premiums households pay3. The CPI uses premiums less claims."
+    "objectID": "explainers/insurance-taxes.html#do-taxes-explain-rising-premiums",
+    "href": "explainers/insurance-taxes.html#do-taxes-explain-rising-premiums",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "Do taxes explain rising premiums?",
+    "text": "Do taxes explain rising premiums?\nTaxes rise with premiums. Stamp duty is a percentage of the premium, so as premiums grow, the dollar amount of stamp duty grows too1, p. 60. Total GST and stamp duty collected on home, contents and strata insurance in northern Australia rose from $48.5 million in 2007–08 to $158.5 million in 2018–191, p. 23. The ACCC found that this falls more heavily on people in higher-risk areas, and considered that it unfairly penalises them1, p. 23.\nTax rates have changed little. Stamp duty in Western Australia and the Northern Territory stayed at 10% over the 12 years to 2018–19. In Queensland, it rose from 7.5% to 9% on 31 July 20131, p. 54. In Tasmania, it rose from 8% to 10% on 1 October 20127.\nThe NSW levy has grown. The NSW Government reports that the cost of the Emergency Services Levy on residential insurance rose 48% from 2017–18 to 2023–2410.\nOther costs drive the underlying premium. The ACCC found that the main driver of higher technical premiums in northern Australia was higher natural peril risk1, p. 60. Why premiums change sets out the other cost pressures."
   },
   {
-    "objectID": "explainers/insurance-and-inflation.html#taxes-on-premiums",
-    "href": "explainers/insurance-and-inflation.html#taxes-on-premiums",
-    "title": "How does insurance contribute to inflation?",
-    "section": "Taxes on premiums",
-    "text": "Taxes on premiums\nWhen the GST was introduced in 2000, the CPI insurance index rose about 30% in a year. The premiums households paid rose much less. At the time, the CPI valued insurance at premiums less claims, which is much smaller than the premium. The GST was charged on the full premium, so the extra tax was a far larger share of the CPI’s value than of the premium. In an ABS example, a rise in tax from 5% to 15% lifted the premium by 9.5% but the CPI’s value by 22.2%4.\n\nLast reviewed 5 November 2026."
+    "objectID": "explainers/insurance-taxes.html#what-reviews-have-recommended",
+    "href": "explainers/insurance-taxes.html#what-reviews-have-recommended",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "What reviews have recommended",
+    "text": "What reviews have recommended\nACCC, 2020. The ACCC recommended that Western Australia, the Northern Territory and Queensland abolish stamp duty on home, contents and strata insurance. It noted that stamp duties on insurance are widely acknowledged as an inefficient form of taxation1, p. 57. If the duty is kept, the ACCC recommended basing it on the sum insured. It estimated that most postcodes in northern Australia would then pay less duty1, pp. 57-59. The ACCC also noted that the 2010 Review of Australia’s Future Tax System recommended abolishing all specific taxes on insurance products1, pp. 56-57.\nNSW Parliament, 2026. In November 2026, a NSW parliamentary committee recommended that the next emergency services levy be decoupled from insurance premiums, to reduce home insurance premiums and affordability stress. It found no clear consensus on which of NSW Treasury’s five replacement options to adopt, and recommended that the next Parliament adopt a new funding source9, p. 8. The government response is due by 18 May 20279.\nReforms in place. The ACT abolished insurance duty on 1 July 20168. Victoria is reducing duty on business insurance by 1% a year until it is abolished from 1 July 2033. Duty on general insurance policies remains at 10%3."
+  },
+  {
+    "objectID": "explainers/insurance-taxes.html#learn-more",
+    "href": "explainers/insurance-taxes.html#learn-more",
+    "title": "How much do taxes add to home insurance premiums?",
+    "section": "Learn more",
+    "text": "Learn more\n\nWhat is insurance and how does it work?\nWhy are insurance premiums increasing in Australia?\nWhy are some households underinsured or uninsured?\n\n\nLast reviewed 26 November 2026."
   },
   {
     "objectID": "explainers/natural-disasters.html",
